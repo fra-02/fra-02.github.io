@@ -47,13 +47,7 @@
 
 <body>
 
-  <div class="theme-switch-wrapper">
-    <label class="theme-switch" for="checkbox">
-      <input type="checkbox" id="checkbox" />
-      <div class="slider round"></div>
-    </label>
-    <span class="theme-label ml-2">Light Mode</span>
-  </div>
+
   <!-- User info -->
   <header>
     <div class="container">
@@ -63,6 +57,15 @@
             alt="Francesco Corcione" style="width: 160px; height: 160px; object-fit: cover;">
         </div>
         <div class="col-lg-8">
+          <div class="d-flex justify-content-end mb-2">
+            <div class="theme-switch-wrapper" style="position:static;">
+              <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+              </label>
+              <span class="theme-label ml-2">Light Mode</span>
+            </div>
+          </div>
           <h2>Francesco Corcione</h2>
           <h5 class="text-muted"><i class="fas fa-laptop-code"></i> Junior Developer / Laureando Magistrale in Software
             Engineering</h5>
@@ -465,8 +468,7 @@
                     reinserimento sociale</h4>
                   <span class="badge badge-primary text-white">09/2023 &ndash; 12/2023</span>
                 </div>
-                <p class="card-text flex-grow-1">App mobile sviluppata in team con metodologia Scrum per supportare il
-                  reinserimento lavorativo, con modulo AI per suggerimenti personalizzati.</p>
+                <p class="card-text flex-grow-1">App mobile per il reinserimento sociale degli ex detenuti, sviluppata nell'ambito del corso di Gestione dei Progetti Software (UniSa) in risposta a un'iniziativa del Ministero della Giustizia sulla responsabilità sociale d'impresa. La piattaforma offre accesso a corsi di formazione online, offerte di lavoro con matching basato su un modulo AI (FIA), alloggi temporanei, supporto psicologico e un calendario di eventi comunitari. Gli utenti guadagnano punti completando corsi, utilizzabili come segnale di competenza verso i datori di lavoro. Sviluppata in team seguendo metodologia Scrum, con ruolo attivo nella specifica dei requisiti e nell'architettura software.</p>
                 <div class="mb-3">
                   <span class="badge badge-light shadow-sm skill-badge text-info"><i class="fas fa-mobile"></i>
                     Flutter/Dart</span>
