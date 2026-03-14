@@ -321,3 +321,44 @@ body.dark-mode .featured-card {
 .featured-card {
   box-shadow: 0 0 15px rgba(0, 123, 255, 0.1) !important;
 }
+
+/* Safe Dark Mode Improvements */
+body.dark-mode hr {
+  border-color: #333 !important;
+}
+
+body.dark-mode .btn-outline-dark {
+  color: #e0e0e0 !important;
+  border-color: #555 !important;
+}
+
+body.dark-mode .btn-outline-dark:hover {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+body.dark-mode .btn-dark {
+  background-color: #444 !important;
+  border-color: #555 !important;
+}
+
+/* Card Titles Color Preservation */
+body.dark-mode .card-title.text-warning { color: #ffc107 !important; }
+body.dark-mode .card-title.text-danger  { color: #f77 !important; }
+body.dark-mode .card-title.text-info    { color: #4fc3f7 !important; }
+body.dark-mode .card-title.text-primary { color: #82b1ff !important; }
+body.dark-mode .card-title.text-success { color: #69f0ae !important; }
+body.dark-mode .card-title.text-secondary { color: #b0bec5 !important; }
+
+/* About Me Dark Mode BG */
+body.dark-mode #aboutme .card {
+  background-color: #1a1a2e !important;
+}
+body.dark-mode #aboutme hr {
+  border-color: #333 !important;
+}
+
+body.dark-mode .user-image {
+  filter: grayscale(100%);
+  transition: filter 0.4s ease;
+}
