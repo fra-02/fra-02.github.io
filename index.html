@@ -4,8 +4,24 @@
 <head>
   <meta charset="utf-8">
   <title>Francesco Corcione - Portfolio</title>
-  <meta name="description" content="Portfolio of Francesco Corcione, Junior Developer & Software Engineering Student">
-  <meta name="author" content="Francesco Corcione">
+
+    <!-- SEO -->
+    <meta name="description" content="Portfolio di Francesco Corcione — Junior Developer e Laureando Magistrale in Software Engineering. Esperto in AI, RAG systems, LLM integration e sviluppo full-stack.">
+    <meta name="keywords" content="Francesco Corcione, Junior Developer, Software Engineering, RAG, LLM, AI, portfolio">
+    <meta name="author" content="Francesco Corcione">
+
+    <!-- Open Graph (anteprima su LinkedIn, WhatsApp, ecc.) -->
+    <meta property="og:title" content="Francesco Corcione — Junior Developer Portfolio">
+    <meta property="og:description" content="Laureando Magistrale in Software Engineering @ UniSa. Appassionato di AI, LLM integration e full-stack development.">
+    <meta property="og:image" content="https://fra-02.github.io/assets/img/profile.jpg">
+    <meta property="og:url" content="https://fra-02.github.io">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Francesco Corcione — Junior Developer Portfolio">
+    <meta name="twitter:description" content="Laureando Magistrale in Software Engineering @ UniSa.">
+    <meta name="twitter:image" content="https://fra-02.github.io/assets/img/profile.jpg">
 
   <!-- Mobile-friendly -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,399 +55,384 @@
     </label>
   </div>
   <!-- User info -->
-  <header>
-    <div class="container">
-      <div class="row justify-content-lg-center">
-        <div class="col-lg-3 text-center pb-3">
-          <img src="assets/images/profile_light.jpeg" class="user-image rounded-circle shadow-sm"
-            alt="Francesco Corcione" style="width: 160px; height: 160px; object-fit: cover;">
-        </div>
-        <div class="col-lg-8">
-          <h2>Francesco Corcione</h2>
-          <h5 class="text-muted"><i class="fas fa-laptop-code"></i> Junior Developer / Laureando Magistrale in Software
-            Engineering</h5>
-          <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> Ottaviano (NA), Italia</p>
-          <p class="text-justify">
-            Laureando magistrale in Software Engineering all'Università degli Studi di Salerno. Ho una solida base in
-            sviluppo full-stack, con esperienza pratica in progetti universitari e personali che spaziano dalla
-            compilazione di linguaggi formali allo sviluppo di applicazioni web moderne. Sono appassionato di
-            <strong>intelligenza artificiale, sistemi RAG, integrazione di LLM</strong> e automazione dei workflow.
-            Cerco opportunità per crescere come sviluppatore e contribuire a progetti reali con curiosità, problem
-            solving e spirito di squadra. <strong>Mi laureerò a Dicembre 2026.</strong>
-          </p>
-          <ul class="list-inline text-lg-right social-icons mt-3">
-            <li class="list-inline-item"><a href="https://github.com/fra-02" target="_blank" title="GitHub"><i
-                  class="fab fa-github"></i></a></li>
-            <!-- inserire URL LinkedIn -->
-            <li class="list-inline-item"><a href="https://linkedin.com/in/" target="_blank" title="LinkedIn"><i
-                  class="fab fa-linkedin-in"></i></a></li>
-            <li class="list-inline-item"><a href="mailto:fcorcione02@gmail.com" target="_blank" title="Email"><i
-                  class="fas fa-at"></i></a></li>
-            <li class="list-inline-item ml-3">
-              <a href="assets/docs/CV_Francesco_Corcione.pdf" target="_blank"
-                class="btn btn-outline-primary btn-sm rounded-pill font-weight-bold"
-                style="padding: 6px 16px; border-width: 2px;">
-                <i class="fas fa-file-pdf"></i> Scarica CV
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <style>
-    .project-card {
-      border-radius: 12px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .project-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
-    }
-
-    .skill-badge {
-      font-size: 0.85em;
-      padding: 0.5em 0.8em;
-      margin: 0.2em 0.3em 0.2em 0;
-      border-radius: 20px;
-      font-weight: 500;
-    }
-  </style>
-
-  <!-- Content -->
-  <section>
-    <!-- ./content-switch -->
-    <div class="d-flex justify-content-center mb-4 pt-4">
-      <div class="list-group list-group-horizontal-md" id="content-tabs" role="tablist">
-        <a class="list-group-item small text-uppercase active font-weight-bold" id="list-education-list"
-          data-toggle="list" href="#education" role="tab"><i class="fas fa-graduation-cap"></i> Education</a>
-        <a class="list-group-item small text-uppercase font-weight-bold" id="list-projects-list" data-toggle="list"
-          href="#projects" role="tab"><i class="fas fa-code"></i> Projects</a>
-        <a class="list-group-item small text-uppercase font-weight-bold" id="list-skills-list" data-toggle="list"
-          href="#skills" role="tab"><i class="fas fa-laptop-code"></i> Skills &amp; Languages</a>
-      </div>
-    </div>
-    <!-- ./content-switch -->
-    <!-- ./content-body -->
-    <div class="container tab-content">
-      <!-- ./education-panel-->
-      <div class="tab-pane fade show active" id="education" role="tabpanel">
+    <header>
+      <div class="container">
         <div class="row justify-content-lg-center">
-          <div class="col-lg">
-            <!-- Timeline -->
-            <div class="timeline-container">
-              <div class="timeline-block timeline-block-right">
-                <div class="marker bg-primary"></div>
-                <div class="timeline-content shadow-sm"
-                  style="border-radius: 12px; padding: 1.5rem; border-left: 4px solid #007bff;">
-                  <h3 class="timeline-h3 text-primary">Laurea Magistrale in Software Engineering</h3>
-                  <span class="timeline-span font-weight-bold">Università degli Studi di Salerno</span>
-                  <p class="text-muted small mb-3"><i class="far fa-calendar-alt"></i> 10/2024 &ndash; in corso</p>
-                  <p class="timeline-p text-justify mb-0"><strong>Media:</strong> 29.6 | <strong>CFU:</strong> 48/120
-                  </p>
-                </div>
-              </div>
-
-              <div class="timeline-block timeline-block-left">
-                <div class="timeline-content shadow-sm"
-                  style="border-radius: 12px; padding: 1.5rem; border-right: 4px solid #28a745;">
-                  <h3 class="timeline-h3 text-success">Laurea Triennale in Informatica</h3>
-                  <span class="timeline-span font-weight-bold">Università degli Studi di Salerno</span>
-                  <p class="text-muted small mb-3"><i class="far fa-calendar-alt"></i> 09/2021 &ndash; 10/2024</p>
-                  <p class="timeline-p text-justify mb-0"><strong>Voto:</strong> <span
-                      class="badge badge-success px-2 py-1" style="font-size: 0.9em;">110/110 e lode <i
-                        class="fas fa-star text-warning"></i></span></p>
-                </div>
-                <div class="marker bg-success"></div>
-              </div>
-
-              <div class="timeline-block timeline-block-right">
-                <div class="marker bg-secondary"></div>
-                <div class="timeline-content shadow-sm"
-                  style="border-radius: 12px; padding: 1.5rem; border-left: 4px solid #6c757d;">
-                  <h3 class="timeline-h3 text-secondary">Diploma in Informatica</h3>
-                  <span class="timeline-span font-weight-bold">I.T.I.S. "Ettore Majorana", Somma Vesuviana</span>
-                  <p class="text-muted small mb-3"><i class="far fa-calendar-alt"></i> 09/2016 &ndash; 07/2021</p>
-                  <p class="timeline-p text-justify mb-0"><strong>Voto:</strong> 99/100</p>
-                </div>
-              </div>
-            </div>
-            <!-- ./timeline -->
+          <div class="col-lg-3 text-center pb-3">
+            <img src="assets/images/profile.jpg" class="user-image rounded-circle shadow-sm" alt="Francesco Corcione" style="width: 160px; height: 160px; object-fit: cover;">
           </div>
-        </div>
-      </div>
-
-      <!-- ./projects-panel-->
-      <div class="tab-pane fade show" id="projects" role="tabpanel">
-        <div class="row justify-content-lg-center">
-          <!-- Project 1 -->
-          <div class="col-lg-10 pb-4">
-            <div class="card border-primary shadow-sm project-card h-100">
-              <div class="card-body d-flex flex-column">
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <h4 class="card-title text-primary m-0"><i class="fas fa-users-cog"></i> Tool di Gestione Candidature
-                  </h4>
-                  <span class="badge badge-primary text-white">07/2025</span>
-                </div>
-                <p class="card-text flex-grow-1">Full-stack app per gestire candidature HR da bot WhatsApp. Architettura
-                  Docker Compose, auth JWT/API Key, dashboard con filtri avanzati e revisione in due fasi.</p>
-                <div class="mb-3">
-                  <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fab fa-react"></i>
-                    React</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-info"><i class="fab fa-css3-alt"></i>
-                    Tailwind CSS</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-success"><i class="fab fa-node-js"></i>
-                    Node.js</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fab fa-docker"></i>
-                    Docker</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-secondary"><i class="fas fa-database"></i>
-                    MariaDB</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-warning"><i class="fas fa-key"></i>
-                    JWT</span>
-                </div>
-                <div class="text-right mt-auto">
-                  <!-- href="https://github.com/fra-02/NOME-REPO" -->
-                  <a href="#" class="btn btn-sm btn-outline-dark" title="In attesa del link repository"><i
-                      class="fab fa-github"></i> GitHub</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="w-100"></div>
-
-          <!-- Project 2 -->
-          <div class="col-lg-10 pb-4">
-            <div class="card shadow-sm project-card h-100 border-secondary">
-              <div class="card-body d-flex flex-column">
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <h4 class="card-title text-secondary m-0"><i class="fas fa-terminal"></i> Toy3 Compiler</h4>
-                  <span class="badge badge-secondary">12/2024 &ndash; 02/2025</span>
-                </div>
-                <p class="card-text flex-grow-1">Compilatore per il linguaggio Toy3 in Java con lexer (JFlex), parser
-                  bottom-up (JavaCup), AST, Visitor Pattern per scoping/type checking e generazione codice C.</p>
-                <div class="mb-3">
-                  <span class="badge badge-light shadow-sm skill-badge text-danger"><i class="fab fa-java"></i>
-                    Java</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-secondary"><i class="fas fa-code"></i>
-                    JFlex</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-secondary"><i class="fas fa-code"></i>
-                    JavaCup</span>
-                </div>
-                <div class="text-right mt-auto">
-                  <!-- href="https://github.com/fra-02/NOME-REPO" -->
-                  <a href="#" class="btn btn-sm btn-outline-dark" title="In attesa del link repository"><i
-                      class="fab fa-github"></i> GitHub</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="w-100"></div>
-
-          <!-- Project 3 -->
-          <div class="col-lg-10 pb-4">
-            <div class="card border-info shadow-sm project-card h-100">
-              <div class="card-body d-flex flex-column">
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <h4 class="card-title text-info m-0"><i class="fas fa-brain"></i> Tesi &mdash; Emotion Prompts su LLM
-                  </h4>
-                  <span class="badge badge-info text-white">09/2024 &ndash; 10/2024</span>
-                </div>
-                <p class="card-text flex-grow-1">Ricerca sull'effetto degli emotion prompts su ChatGPT-4 vs risposte
-                  umane di StackOverflow. Valutazione con metriche NLP, sentiment analysis e code review.</p>
-                <div class="mb-3">
-                  <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fab fa-python"></i>
-                    Python</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-info"><i class="fas fa-language"></i>
-                    NLP</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-success"><i class="fas fa-robot"></i>
-                    ChatGPT-4</span>
-                </div>
-                <div class="text-right mt-auto">
-                  <!-- href="https://github.com/fra-02/NOME-REPO" -->
-                  <a href="#" class="btn btn-sm btn-outline-dark" title="In attesa del link repository"><i
-                      class="fab fa-github"></i> GitHub</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="w-100"></div>
-
-          <!-- Project 4 -->
-          <div class="col-lg-10 pb-4">
-            <div class="card border-info shadow-sm project-card h-100">
-              <div class="card-body d-flex flex-column">
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <h4 class="card-title text-info m-0"><i class="fas fa-robot"></i> GoEmotion DeBERTa &mdash; MLOps</h4>
-                  <span class="badge badge-info text-white">05/2025</span>
-                </div>
-                <p class="card-text flex-grow-1">Esperimento MLOps completo: training, deployment e monitoraggio di un
-                  modello DeBERTa per emotion recognition.</p>
-                <div class="mb-3">
-                  <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fab fa-python"></i>
-                    Python</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-warning"><i class="fas fa-smile-beam"></i>
-                    HuggingFace</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-info"><i class="fas fa-cogs"></i> MLOps
-                    tools</span>
-                </div>
-                <div class="text-right mt-auto">
-                  <!-- href="https://github.com/fra-02/NOME-REPO" -->
-                  <a href="#" class="btn btn-sm btn-outline-dark" title="In attesa del link repository"><i
-                      class="fab fa-github"></i> GitHub</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="w-100"></div>
-
-          <!-- Project 5 -->
-          <div class="col-lg-10 pb-4">
-            <div class="card border-primary shadow-sm project-card h-100">
-              <div class="card-body d-flex flex-column">
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <h4 class="card-title text-primary m-0"><i class="fas fa-mobile-alt"></i> Restart &mdash; App per
-                    reinserimento sociale</h4>
-                  <span class="badge badge-primary text-white">09/2023 &ndash; 12/2023</span>
-                </div>
-                <p class="card-text flex-grow-1">App mobile sviluppata in team con metodologia Scrum per supportare il
-                  reinserimento lavorativo, con modulo AI per suggerimenti personalizzati.</p>
-                <div class="mb-3">
-                  <span class="badge badge-light shadow-sm skill-badge text-info"><i class="fas fa-mobile"></i>
-                    Flutter/Dart</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fas fa-brain"></i> AI
-                    module</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-success"><i class="fas fa-users"></i>
-                    Scrum</span>
-                </div>
-                <div class="text-right mt-auto">
-                  <!-- href="https://github.com/fra-02/NOME-REPO" -->
-                  <a href="#" class="btn btn-sm btn-outline-dark" title="In attesa del link repository"><i
-                      class="fab fa-github"></i> GitHub</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="w-100"></div>
-
-          <!-- Project 6 -->
-          <div class="col-lg-10 pb-4">
-            <div class="card shadow-sm project-card h-100 border-secondary">
-              <div class="card-body d-flex flex-column">
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <h4 class="card-title text-secondary m-0"><i class="fas fa-shopping-cart"></i> Vaporant &mdash;
-                    E-commerce</h4>
-                  <span class="badge badge-secondary">04/2023 &ndash; 07/2023</span>
-                </div>
-                <p class="card-text flex-grow-1">Sito e-commerce con catalogo, carrello e gestione prodotti. Focus su
-                  usabilità e struttura dati.</p>
-                <div class="mb-3">
-                  <span class="badge badge-light shadow-sm skill-badge text-danger"><i class="fab fa-html5"></i>
-                    HTML</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fab fa-css3-alt"></i>
-                    CSS</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-warning"><i class="fab fa-js"></i>
-                    JavaScript</span>
-                  <span class="badge badge-light shadow-sm skill-badge text-info"><i class="fas fa-database"></i>
-                    MySQL</span>
-                </div>
-                <div class="text-right mt-auto">
-                  <!-- href="https://github.com/fra-02/NOME-REPO" -->
-                  <a href="#" class="btn btn-sm btn-outline-dark" title="In attesa del link repository"><i
-                      class="fab fa-github"></i> GitHub</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- ./skills-panel-->
-      <div class="tab-pane fade show" id="skills" role="tabpanel">
-        <div class="row justify-content-lg-center">
-
-          <!-- Skills -->
-          <div class="col-lg-10 pb-4 mb-4 border-bottom">
-            <h3 class="mb-4 text-dark"><i class="fas fa-laptop-code text-primary"></i> Technical Skills</h3>
-
-            <div class="card border-0 shadow-sm mb-4" style="border-radius: 12px; background-color: #f8f9fa;">
-              <div class="card-body">
-                <h5 class="text-primary mb-3"><i class="fas fa-code"></i> Languages</h5>
-                <div class="d-flex flex-wrap">
-                  <span class="badge badge-primary shadow-sm skill-badge"><i class="fab fa-java"></i> Java</span>
-                  <span class="badge badge-primary shadow-sm skill-badge"><i class="fab fa-python"></i> Python</span>
-                  <span class="badge badge-primary shadow-sm skill-badge"><i class="fab fa-js"></i>
-                    JavaScript/TypeScript</span>
-                  <span class="badge badge-primary shadow-sm skill-badge"><i class="fas fa-database"></i> SQL</span>
-                  <span class="badge badge-primary shadow-sm skill-badge">C/C++</span>
-                  <span class="badge badge-primary shadow-sm skill-badge">Dart</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="card border-0 shadow-sm mb-4" style="border-radius: 12px; background-color: #f8f9fa;">
-              <div class="card-body">
-                <h5 class="text-secondary mb-3"><i class="fas fa-layer-group"></i> Frameworks &amp; Libraries</h5>
-                <div class="d-flex flex-wrap">
-                  <span class="badge badge-secondary shadow-sm skill-badge"><i class="fab fa-react"></i> React</span>
-                  <span class="badge badge-secondary shadow-sm skill-badge"><i class="fab fa-node"></i>
-                    Node.js/Express</span>
-                  <span class="badge badge-secondary shadow-sm skill-badge">Flutter</span>
-                  <span class="badge badge-secondary shadow-sm skill-badge">Tailwind CSS</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="card border-0 shadow-sm mb-4" style="border-radius: 12px; background-color: #f8f9fa;">
-              <div class="card-body">
-                <h5 class="text-info mb-3"><i class="fas fa-cogs"></i> Tools &amp; Platforms</h5>
-                <div class="d-flex flex-wrap">
-                  <span class="badge badge-dark shadow-sm skill-badge"><i class="fab fa-docker"></i> Docker</span>
-                  <span class="badge badge-dark shadow-sm skill-badge"><i class="fab fa-git-alt"></i> Git/GitHub</span>
-                  <span class="badge badge-dark shadow-sm skill-badge">n8n</span>
-                  <span class="badge badge-dark shadow-sm skill-badge">HuggingFace</span>
-                  <span class="badge badge-dark shadow-sm skill-badge">Prisma</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="card border-0 shadow-sm mb-4"
-              style="border-radius: 12px; background-color: #f8f9fa; border-left: 4px solid #28a745 !important;">
-              <div class="card-body">
-                <h5 class="text-success mb-3"><i class="fas fa-brain"></i> AI / ML</h5>
-                <div class="d-flex flex-wrap">
-                  <span class="badge badge-success shadow-sm skill-badge">LLM Integration</span>
-                  <span class="badge badge-success shadow-sm skill-badge">RAG Systems</span>
-                  <span class="badge badge-success shadow-sm skill-badge">Prompt Engineering</span>
-                  <span class="badge badge-success shadow-sm skill-badge">MLOps</span>
-                  <span class="badge badge-success shadow-sm skill-badge">Sentiment Analysis</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Languages -->
-          <div class="col-lg-10 pb-4 mb-5">
-            <h3 class="mb-4 text-dark"><i class="fas fa-globe text-info"></i> Languages</h3>
-            <ul class="list-group shadow-sm" style="border-radius: 12px;">
-              <li class="list-group-item d-flex justify-content-between align-items-center border-0 border-bottom"
-                style="padding: 1.25rem;">
-                <span style="font-size: 1.1em;"><strong>Italiano</strong></span>
-                <span class="badge badge-primary badge-pill px-3 py-2 shadow-sm">Madrelingua</span>
-              </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center border-0"
-                style="padding: 1.25rem;">
-                <span style="font-size: 1.1em;"><strong>Inglese</strong></span>
-                <span class="badge badge-info badge-pill px-3 py-2 shadow-sm text-white">B2</span>
+          <div class="col-lg-8">
+            <h2>Francesco Corcione</h2>
+            <h5 class="text-muted"><i class="fas fa-laptop-code"></i> Junior Developer / Laureando Magistrale in Software Engineering</h5>
+            <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> Ottaviano (NA), Italia</p>
+            <p class="text-justify">
+              Laureando magistrale in Software Engineering all'Università degli Studi di Salerno. Ho una solida base in sviluppo full-stack, con esperienza pratica in progetti universitari e personali che spaziano dalla compilazione di linguaggi formali allo sviluppo di applicazioni web moderne. Sono appassionato di <strong>intelligenza artificiale, sistemi RAG, integrazione di LLM</strong> e automazione dei workflow. Cerco opportunità per crescere come sviluppatore e contribuire a progetti reali con curiosità, problem solving e spirito di squadra. Ho esperienza di lavoro in team con metodologia Scrum e gestione di progetti come Project Manager. <strong>Mi laureerò a Dicembre 2026.</strong>
+            </p>
+            <ul class="list-inline text-lg-right social-icons mt-3">
+              <li class="list-inline-item"><a href="https://github.com/fra-02" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></li>
+              <!-- inserire URL LinkedIn -->
+              <li class="list-inline-item"><a href="https://linkedin.com/in/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+              <li class="list-inline-item"><a href="mailto:fcorcione02@gmail.com" target="_blank" title="Email"><i class="fas fa-at"></i></a></li>
+              <li class="list-inline-item ml-3">
+                <a href="assets/docs/CV_Francesco_Corcione.pdf" target="_blank" class="btn btn-outline-primary btn-sm rounded-pill font-weight-bold" style="padding: 6px 16px; border-width: 2px;">
+                  <i class="fas fa-file-pdf"></i> Scarica CV
+                </a>
               </li>
             </ul>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </header>
+
+    <!-- Content -->
+    <section>
+      <!-- ./content-switch -->
+      <div class="d-flex justify-content-center mb-4 pt-4">
+        <div class="list-group list-group-horizontal-md" id="content-tabs" role="tablist">
+          <a class="list-group-item small text-uppercase active font-weight-bold" id="list-experience-list" data-toggle="list" href="#experience" role="tab"><i class="fas fa-briefcase"></i> Experience</a>
+          <a class="list-group-item small text-uppercase font-weight-bold" id="list-education-list" data-toggle="list" href="#education" role="tab"><i class="fas fa-graduation-cap"></i> Education</a>
+          <a class="list-group-item small text-uppercase font-weight-bold" id="list-projects-list" data-toggle="list" href="#projects" role="tab"><i class="fas fa-code"></i> Projects</a>
+          <a class="list-group-item small text-uppercase font-weight-bold" id="list-skills-list" data-toggle="list" href="#skills" role="tab"><i class="fas fa-laptop-code"></i> Skills &amp; Languages</a>
+        </div>
+      </div>
+      <!-- ./content-switch -->
+      <!-- ./content-body -->
+      <div class="container tab-content">
+        <!-- ./experience-panel-->
+        <div class="tab-pane fade show active" id="experience" role="tabpanel">
+          <div class="row justify-content-lg-center">
+            <div class="col-lg">
+              <!-- Timeline -->
+              <div class="timeline-container">
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker bg-primary"></div>
+                  <div class="timeline-content shadow-sm" style="border-radius: 12px; padding: 1.5rem; border-left: 4px solid #007bff;">
+                    <h3 class="timeline-h3 text-primary">Tirocinio &mdash; AI &amp; Workflow Automation Developer</h3>
+                    <p class="text-muted small mb-3"><i class="far fa-calendar-alt"></i> [16 Marzo 2026] &ndash; in corso</p>
+                    <p class="timeline-p text-justify mb-3">Sviluppo di sistemi RAG (Retrieval-Augmented Generation) per la gestione della conoscenza aziendale, integrazione di LLM tramite workflow automatizzati con n8n, utilizzo di vector database per embeddings multimodali. I workflow sono riservati e non pubblicamente linkabili.</p>
+                    <div class="mb-0">
+                      <span class="badge badge-light shadow-sm skill-badge text-dark">n8n</span>
+                      <span class="badge badge-light shadow-sm skill-badge text-success">LLM Integration</span>
+                      <span class="badge badge-light shadow-sm skill-badge text-info">RAG Systems</span>
+                      <span class="badge badge-light shadow-sm skill-badge text-primary">Vector DB</span>
+                      <span class="badge badge-light shadow-sm skill-badge text-warning"><i class="fab fa-js"></i> JavaScript</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ./education-panel-->
+        <div class="tab-pane fade show" id="education" role="tabpanel">
+          <div class="row justify-content-lg-center">
+            <div class="col-lg">
+              <!-- Timeline -->
+              <div class="timeline-container">
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker bg-primary"></div>
+                  <div class="timeline-content shadow-sm" style="border-radius: 12px; padding: 1.5rem; border-left: 4px solid #007bff;">
+                    <h3 class="timeline-h3 text-primary">Laurea Magistrale in Software Engineering</h3>
+                    <span class="timeline-span font-weight-bold">Università degli Studi di Salerno</span>
+                    <p class="text-muted small mb-3"><i class="far fa-calendar-alt"></i> 10/2024 &ndash; in corso</p>
+                    <p class="timeline-p text-justify mb-0"><strong>Media:</strong> 29.6 | <strong>CFU:</strong> 48/120</p>
+                  </div>
+                </div>
+            
+                <div class="timeline-block timeline-block-left">
+                  <div class="timeline-content shadow-sm" style="border-radius: 12px; padding: 1.5rem; border-right: 4px solid #28a745;">
+                    <h3 class="timeline-h3 text-success">Laurea Triennale in Informatica</h3>
+                    <span class="timeline-span font-weight-bold">Università degli Studi di Salerno</span>
+                    <p class="text-muted small mb-3"><i class="far fa-calendar-alt"></i> 09/2021 &ndash; 10/2024</p>
+                    <p class="timeline-p text-justify mb-2"><strong>Voto:</strong> <span class="badge badge-success px-2 py-1" style="font-size: 0.9em;">110/110 e lode <i class="fas fa-star text-warning"></i></span></p>
+                    <p class="timeline-p text-justify mb-0" style="font-size: 0.9em;">
+                      <strong>Tesi:</strong> <em>"Emotion Prompts: analisi degli effetti sulle risposte di LLM rispetto a risposte umane"</em><br>
+                      <strong>Relatore:</strong> [Prof. Fabio Palomba]
+                    </p>
+                  </div>
+                  <div class="marker bg-success"></div>
+                </div>
+            
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker bg-secondary"></div>
+                  <div class="timeline-content shadow-sm" style="border-radius: 12px; padding: 1.5rem; border-left: 4px solid #6c757d;">
+                    <h3 class="timeline-h3 text-secondary">Diploma in Informatica</h3>
+                    <span class="timeline-span font-weight-bold">I.T.I.S. "Ettore Majorana", Somma Vesuviana</span>
+                    <p class="text-muted small mb-3"><i class="far fa-calendar-alt"></i> 09/2016 &ndash; 07/2021</p>
+                    <p class="timeline-p text-justify mb-0"><strong>Voto:</strong> 99/100</p>
+                  </div>
+                </div>
+              </div>
+              <!-- ./timeline -->
+            </div>
+          </div>
+        </div>
+        
+        <!-- ./projects-panel-->
+        <div class="tab-pane fade show" id="projects" role="tabpanel">
+          <div class="row justify-content-lg-center">
+            
+            <!-- Project: SINTONIA (Featured) -->
+            <div class="col-lg-10 pb-4">
+              <div class="card border-warning shadow project-card h-100 featured-card" style="border-width: 2px;">
+                <div class="card-body d-flex flex-column">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <h4 class="card-title text-warning m-0"><strong><i class="fas fa-brain"></i> SINTONIA &mdash; Triage Salute Mentale</strong></h4>
+                    <div>
+                      <span class="badge badge-warning text-dark shadow-sm mr-2"><i class="fas fa-star"></i> Featured</span>
+                      <span class="badge badge-dark">[da inserire manualmente]</span>
+                    </div>
+                  </div>
+                  <h6 class="text-muted mb-3"><i class="fas fa-user-tie"></i> Ruolo: <strong>Co-Project Manager</strong></h6>
+                  <p class="card-text flex-grow-1">Sistema integrato per il triage dinamico e il monitoraggio della salute mentale pubblica in Campania. Trasforma il paradigma da reattivo a predittivo: la priorità del paziente si aggiorna in tempo reale tramite questionari clinici standardizzati (PHQ-9, GAD-7, WHO-5, PC-PTSD-5) e un algoritmo a decadimento esponenziale. Include dashboard per psicologi con alert automatici, report clinici generati da AI, gamification per i pazienti e forum anonimo. Sviluppato in team di 12 persone con ruolo di Co-Project Manager.</p>
+                  <div class="mb-3">
+                    <span class="badge badge-light shadow-sm skill-badge text-info"><i class="fab fa-react"></i> React</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-primary">TypeScript</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-danger">NestJS</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-success"><i class="fab fa-node-js"></i> Node.js</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-info"><i class="fas fa-database"></i> PostgreSQL</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-secondary">Drizzle ORM</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fab fa-docker"></i> Docker</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-success"><i class="fas fa-robot"></i> AI Integration</span>
+                  </div>
+                  <div class="text-right mt-auto">
+                    <a href="https://github.com/fra-02/SINTONIA" target="_blank" class="btn btn-sm btn-dark"><i class="fab fa-github"></i> GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-100"></div>
+
+            <!-- Project 1: Tool di Gestione Candidature (Featured) -->
+            <div class="col-lg-10 pb-4">
+              <div class="card border-primary shadow project-card h-100 featured-card" style="border-width: 2px;">
+                <div class="card-body d-flex flex-column">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <h4 class="card-title text-primary m-0"><strong><i class="fas fa-users-cog"></i> Tool di Gestione Candidature</strong></h4>
+                    <div>
+                      <span class="badge badge-warning text-dark shadow-sm mr-2"><i class="fas fa-star"></i> Featured</span>
+                      <span class="badge badge-primary text-white">07/2025</span>
+                    </div>
+                  </div>
+                  <p class="card-text flex-grow-1 mt-2">Full-stack app per gestire candidature HR da bot WhatsApp. Architettura Docker Compose, auth JWT/API Key, dashboard con filtri avanzati e revisione in due fasi.</p>
+                  <div class="mb-3">
+                    <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fab fa-react"></i> React</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-info"><i class="fab fa-css3-alt"></i> Tailwind CSS</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-success"><i class="fab fa-node-js"></i> Node.js</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fab fa-docker"></i> Docker</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-secondary"><i class="fas fa-database"></i> MariaDB</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-warning"><i class="fas fa-key"></i> JWT</span>
+                  </div>
+                  <div class="text-right mt-auto">
+                    <!-- href="https://github.com/fra-02/NOME-REPO" -->
+                    <a href="#" class="btn btn-sm btn-outline-dark" title="In attesa del link repository"><i class="fab fa-github"></i> GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-100"></div>
+            
+            <div class="col-lg-10"><hr class="my-4"></div>
+            <div class="w-100"></div>
+
+            <!-- Project 2 -->
+            <div class="col-lg-10 pb-4">
+              <div class="card shadow-sm project-card h-100 border-secondary">
+                <div class="card-body d-flex flex-column">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <h4 class="card-title text-secondary m-0"><i class="fas fa-terminal"></i> Toy3 Compiler</h4>
+                    <span class="badge badge-secondary">12/2024 &ndash; 02/2025</span>
+                  </div>
+                  <p class="card-text flex-grow-1">Compilatore per il linguaggio Toy3 in Java con lexer (JFlex), parser bottom-up (JavaCup), AST, Visitor Pattern per scoping/type checking e generazione codice C.</p>
+                  <div class="mb-3">
+                    <span class="badge badge-light shadow-sm skill-badge text-danger"><i class="fab fa-java"></i> Java</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-secondary"><i class="fas fa-code"></i> JFlex</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-secondary"><i class="fas fa-code"></i> JavaCup</span>
+                  </div>
+                  <div class="text-right mt-auto">
+                    <!-- href="https://github.com/fra-02/NOME-REPO" -->
+                    <a href="#" class="btn btn-sm btn-outline-dark" title="In attesa del link repository"><i class="fab fa-github"></i> GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-100"></div>
+
+            <!-- Project 3 -->
+            <div class="col-lg-10 pb-4">
+              <div class="card border-info shadow-sm project-card h-100">
+                <div class="card-body d-flex flex-column">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <h4 class="card-title text-info m-0"><i class="fas fa-brain"></i> Tesi &mdash; Emotion Prompts su LLM</h4>
+                    <span class="badge badge-info text-white">09/2024 &ndash; 10/2024</span>
+                  </div>
+                  <p class="card-text flex-grow-1">Ricerca sull'effetto degli emotion prompts su ChatGPT-4 vs risposte umane di StackOverflow. Valutazione con metriche NLP, sentiment analysis e code review.</p>
+                  <div class="mb-3">
+                    <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fab fa-python"></i> Python</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-info"><i class="fas fa-language"></i> NLP</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-success"><i class="fas fa-robot"></i> ChatGPT-4</span>
+                  </div>
+                  <div class="text-right mt-auto">
+                    <!-- href="https://github.com/fra-02/NOME-REPO" -->
+                    <a href="#" class="btn btn-sm btn-outline-dark" title="In attesa del link repository"><i class="fab fa-github"></i> GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-100"></div>
+
+            <!-- Project 4 -->
+            <div class="col-lg-10 pb-4">
+              <div class="card border-info shadow-sm project-card h-100">
+                <div class="card-body d-flex flex-column">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <h4 class="card-title text-info m-0"><i class="fas fa-robot"></i> GoEmotion DeBERTa &mdash; MLOps</h4>
+                    <span class="badge badge-info text-white">05/2025</span>
+                  </div>
+                  <p class="card-text flex-grow-1">Esperimento MLOps completo: training, deployment e monitoraggio di un modello DeBERTa per emotion recognition.</p>
+                  <div class="mb-3">
+                    <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fab fa-python"></i> Python</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-warning"><i class="fas fa-smile-beam"></i> HuggingFace</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-info"><i class="fas fa-cogs"></i> MLOps tools</span>
+                  </div>
+                  <div class="text-right mt-auto">
+                    <!-- href="https://github.com/fra-02/NOME-REPO" -->
+                    <a href="#" class="btn btn-sm btn-outline-dark" title="In attesa del link repository"><i class="fab fa-github"></i> GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-100"></div>
+
+            <!-- Project 5 -->
+            <div class="col-lg-10 pb-4">
+              <div class="card border-primary shadow-sm project-card h-100">
+                <div class="card-body d-flex flex-column">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <h4 class="card-title text-primary m-0"><i class="fas fa-mobile-alt"></i> Restart &mdash; App per reinserimento sociale</h4>
+                    <span class="badge badge-primary text-white">09/2023 &ndash; 12/2023</span>
+                  </div>
+                  <p class="card-text flex-grow-1">App mobile sviluppata in team con metodologia Scrum per supportare il reinserimento lavorativo, con modulo AI per suggerimenti personalizzati.</p>
+                  <div class="mb-3">
+                    <span class="badge badge-light shadow-sm skill-badge text-info"><i class="fas fa-mobile"></i> Flutter/Dart</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fas fa-brain"></i> AI module</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-success"><i class="fas fa-users"></i> Scrum</span>
+                  </div>
+                  <div class="text-right mt-auto">
+                    <!-- href="https://github.com/fra-02/NOME-REPO" -->
+                    <a href="#" class="btn btn-sm btn-outline-dark" title="In attesa del link repository"><i class="fab fa-github"></i> GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-100"></div>
+
+            <!-- Project 6 -->
+            <div class="col-lg-10 pb-4">
+              <div class="card shadow-sm project-card h-100 border-secondary">
+                <div class="card-body d-flex flex-column">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <h4 class="card-title text-secondary m-0"><i class="fas fa-shopping-cart"></i> Vaporant &mdash; E-commerce</h4>
+                    <span class="badge badge-secondary">04/2023 &ndash; 07/2023</span>
+                  </div>
+                  <p class="card-text flex-grow-1">Sito e-commerce con catalogo, carrello e gestione prodotti. Focus su usabilità e struttura dati.</p>
+                  <div class="mb-3">
+                    <span class="badge badge-light shadow-sm skill-badge text-danger"><i class="fab fa-html5"></i> HTML</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fab fa-css3-alt"></i> CSS</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-warning"><i class="fab fa-js"></i> JavaScript</span>
+                    <span class="badge badge-light shadow-sm skill-badge text-info"><i class="fas fa-database"></i> MySQL</span>
+                  </div>
+                  <div class="text-right mt-auto">
+                    <!-- href="https://github.com/fra-02/NOME-REPO" -->
+                    <a href="#" class="btn btn-sm btn-outline-dark" title="In attesa del link repository"><i class="fab fa-github"></i> GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ./skills-panel-->
+        <div class="tab-pane fade show" id="skills" role="tabpanel">
+          <div class="row justify-content-lg-center">
+            
+            <!-- Skills -->
+            <div class="col-lg-10 pb-4 mb-4 border-bottom">
+              <h3 class="mb-4 text-dark"><i class="fas fa-laptop-code text-primary"></i> Technical Skills</h3>
+              
+              <div class="card border-0 shadow-sm mb-4" style="border-radius: 12px; background-color: #f8f9fa;">
+                <div class="card-body">
+                  <h5 class="text-primary mb-3"><i class="fas fa-code"></i> Languages</h5>
+                  <div class="d-flex flex-wrap">
+                    <span class="badge badge-primary shadow-sm skill-badge"><i class="fab fa-java"></i> Java</span>
+                    <span class="badge badge-primary shadow-sm skill-badge"><i class="fab fa-python"></i> Python</span>
+                    <span class="badge badge-primary shadow-sm skill-badge"><i class="fab fa-js"></i> JavaScript/TypeScript</span>
+                    <span class="badge badge-primary shadow-sm skill-badge"><i class="fas fa-database"></i> SQL</span>
+                    <span class="badge badge-primary shadow-sm skill-badge">C/C++</span>
+                    <span class="badge badge-primary shadow-sm skill-badge">Dart</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card border-0 shadow-sm mb-4" style="border-radius: 12px; background-color: #f8f9fa;">
+                <div class="card-body">
+                  <h5 class="text-secondary mb-3"><i class="fas fa-layer-group"></i> Frameworks &amp; Libraries</h5>
+                  <div class="d-flex flex-wrap">
+                    <span class="badge badge-secondary shadow-sm skill-badge"><i class="fab fa-react"></i> React</span>
+                    <span class="badge badge-secondary shadow-sm skill-badge"><i class="fab fa-node"></i> Node.js/Express</span>
+                    <span class="badge badge-secondary shadow-sm skill-badge">Flutter</span>
+                    <span class="badge badge-secondary shadow-sm skill-badge">Tailwind CSS</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card border-0 shadow-sm mb-4" style="border-radius: 12px; background-color: #f8f9fa;">
+                <div class="card-body">
+                  <h5 class="text-info mb-3"><i class="fas fa-cogs"></i> Tools &amp; Platforms</h5>
+                  <div class="d-flex flex-wrap">
+                    <span class="badge badge-dark shadow-sm skill-badge"><i class="fab fa-docker"></i> Docker</span>
+                    <span class="badge badge-dark shadow-sm skill-badge"><i class="fab fa-git-alt"></i> Git/GitHub</span>
+                    <span class="badge badge-dark shadow-sm skill-badge">n8n</span>
+                    <span class="badge badge-dark shadow-sm skill-badge">HuggingFace</span>
+                    <span class="badge badge-dark shadow-sm skill-badge">Prisma</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card border-0 shadow-sm mb-4" style="border-radius: 12px; background-color: #f8f9fa; border-left: 4px solid #28a745 !important;">
+                <div class="card-body">
+                  <h5 class="text-success mb-3"><i class="fas fa-brain"></i> AI / ML</h5>
+                  <div class="d-flex flex-wrap">
+                    <span class="badge badge-success shadow-sm skill-badge">LLM Integration</span>
+                    <span class="badge badge-success shadow-sm skill-badge">RAG Systems</span>
+                    <span class="badge badge-success shadow-sm skill-badge">Prompt Engineering</span>
+                    <span class="badge badge-success shadow-sm skill-badge">MLOps</span>
+                    <span class="badge badge-success shadow-sm skill-badge">Sentiment Analysis</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Languages -->
+            <div class="col-lg-10 pb-4 mb-5">
+              <h3 class="mb-4 text-dark"><i class="fas fa-globe text-info"></i> Languages</h3>
+              <ul class="list-group shadow-sm" style="border-radius: 12px;">
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0 border-bottom" style="padding: 1.25rem;">
+                  <span style="font-size: 1.1em;"><strong>Italiano</strong></span>
+                  <span class="badge badge-primary badge-pill px-3 py-2 shadow-sm">Madrelingua</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0" style="padding: 1.25rem;">
+                  <span style="font-size: 1.1em;"><strong>Inglese</strong></span>
+                  <span class="badge badge-info badge-pill px-3 py-2 shadow-sm text-white">B2</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   <footer>
     <div class="container text-center">
       <p class="small">

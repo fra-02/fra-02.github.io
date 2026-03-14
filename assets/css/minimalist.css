@@ -323,3 +323,12 @@ input:checked + .slider .fa-moon {
   color: white;
   opacity: 1;
 }
+
+
+/* Featured Card Pulse/Shadow Update */
+body.dark-mode .featured-card {
+  box-shadow: 0 0 15px rgba(255, 193, 7, 0.2) !important;
+}
+.featured-card {
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.1) !important;
+}
