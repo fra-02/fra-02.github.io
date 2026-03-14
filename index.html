@@ -50,11 +50,9 @@
   <div class="theme-switch-wrapper">
     <label class="theme-switch" for="checkbox">
       <input type="checkbox" id="checkbox" />
-      <div class="slider round">
-        <i class="fas fa-sun"></i>
-        <i class="fas fa-moon"></i>
-      </div>
+      <div class="slider round"></div>
     </label>
+    <span class="theme-label ml-2">Light Mode</span>
   </div>
   <!-- User info -->
   <header>
@@ -124,37 +122,52 @@
         <div class="row justify-content-lg-center">
           <div class="col-lg-10">
             <div class="card border-0 shadow-sm" style="border-radius: 12px; background-color: #f8f9fa;">
-              <div class="card-body px-4 py-4 text-center" style="font-size: 1.05rem; line-height: 1.7; color: #495057;">
-                <h3 class="mb-4 text-dark"><i class="fas fa-user-circle text-primary"></i> Chi sono</h3>
+              <div class="card-body px-5 py-5 text-center" style="font-size: 1rem; line-height: 1.9; color: #495057; font-family: 'Raleway', sans-serif;">
                 
                 <div>
                   <!-- Personal Info -->
-                  <h4 class="text-primary mb-3"><i class="fas fa-id-card"></i> Personal Info</h4>
-                  <ul class="list-unstyled mb-4 d-inline-block text-left">
-                    <li class="mb-2"><i class="fas fa-user text-secondary fa-fw"></i> <strong>Name:</strong> Francesco Corcione</li>
-                    <li class="mb-2"><i class="fas fa-calendar-alt text-secondary fa-fw"></i> <strong>Birthday:</strong> 7 Luglio 2002</li>
-                    <li class="mb-2"><i class="fas fa-map-marker-alt text-secondary fa-fw"></i> <strong>Place of birth:</strong> Pompei (NA), Italia</li>
-                    <li class="mb-2"><i class="fas fa-flag text-secondary fa-fw"></i> <strong>Nationality:</strong> Italiana</li>
-                  </ul>
+                  <div class="d-flex align-items-center mb-4">
+                    <hr class="flex-grow-1" style="border-color: #dee2e6;">
+                    <h5 class="px-3 mb-0" style="font-weight: 600; letter-spacing: 0.08em; color: #343a40;">Personal info</h5>
+                    <hr class="flex-grow-1" style="border-color: #dee2e6;">
+                  </div>
+                  <div class="mb-5">
+                    <p class="mb-1"><span class="text-muted" style="min-width:140px; display:inline-block; text-align:right; margin-right:12px;">Name</span> Francesco Corcione</p>
+                    <p class="mb-1"><span class="text-muted" style="min-width:140px; display:inline-block; text-align:right; margin-right:12px;">Birthday</span> 7 Luglio 2002</p>
+                    <p class="mb-1"><span class="text-muted" style="min-width:140px; display:inline-block; text-align:right; margin-right:12px;">Place of birth</span> Pompei (NA), Italia</p>
+                    <p class="mb-1"><span class="text-muted" style="min-width:140px; display:inline-block; text-align:right; margin-right:12px;">Nationality</span> Italiana</p>
+                  </div>
 
-                  <!-- Contact Info -->
-                  <h4 class="text-primary mb-3"><i class="fas fa-envelope"></i> Contact Info</h4>
-                  <ul class="list-unstyled mb-4 d-inline-block text-left">
-                    <li class="mb-2"><i class="fas fa-at text-secondary fa-fw"></i> <strong>E-mail:</strong> <a href="mailto:fcorcione02@gmail.com" class="text-dark">fcorcione02@gmail.com</a></li>
-                    <li class="mb-2"><i class="fas fa-university text-secondary fa-fw"></i> <strong>Inst. E-mail:</strong> <a href="mailto:f.corcione5@studenti.unisa.it" class="text-dark">f.corcione5@studenti.unisa.it</a></li>
-                  </ul>
+                  <!-- Contact info -->
+                  <div class="d-flex align-items-center mb-4">
+                    <hr class="flex-grow-1" style="border-color: #dee2e6;">
+                    <h5 class="px-3 mb-0" style="font-weight: 600; letter-spacing: 0.08em; color: #343a40;">Contact info</h5>
+                    <hr class="flex-grow-1" style="border-color: #dee2e6;">
+                  </div>
+                  <div class="mb-5">
+                    <p class="mb-1"><span class="text-muted" style="min-width:140px; display:inline-block; text-align:right; margin-right:12px;">E-mail</span> <a href="mailto:fcorcione02@gmail.com" class="text-dark" style="text-decoration:none;">fcorcione02@gmail.com</a></p>
+                    <p class="mb-1"><span class="text-muted" style="min-width:140px; display:inline-block; text-align:right; margin-right:12px;">Institutional E-mail</span> <a href="mailto:f.corcione5@studenti.unisa.it" class="text-dark" style="text-decoration:none;">f.corcione5@studenti.unisa.it</a></p>
+                  </div>
 
                   <!-- Research Interests -->
-                  <h4 class="text-primary mb-3"><i class="fas fa-microscope"></i> Research Interests</h4>
-                  <div class="mb-4 d-flex flex-wrap justify-content-center" style="gap: 5px;">
-                    <span class="badge badge-light shadow-sm skill-badge text-primary px-3 py-2 mb-2" style="font-size: 0.95rem;">[Interesse 1]</span>
-                    <span class="badge badge-light shadow-sm skill-badge text-primary px-3 py-2 mb-2" style="font-size: 0.95rem;">[Interesse 2]</span>
-                    <span class="badge badge-light shadow-sm skill-badge text-primary px-3 py-2 mb-2" style="font-size: 0.95rem;">[Interesse 3]</span>
+                  <div class="d-flex align-items-center mb-4">
+                    <hr class="flex-grow-1" style="border-color: #dee2e6;">
+                    <h5 class="px-3 mb-0" style="font-weight: 600; letter-spacing: 0.08em; color: #343a40;">Research Interests</h5>
+                    <hr class="flex-grow-1" style="border-color: #dee2e6;">
+                  </div>
+                  <div class="mb-5">
+                    <p class="mb-1" style="color: #007bff;">[Interesse 1]</p>
+                    <p class="mb-1" style="color: #007bff;">[Interesse 2]</p>
+                    <p class="mb-1" style="color: #007bff;">[Interesse 3]</p>
                   </div>
 
                   <!-- Hobbies -->
-                  <h4 class="text-primary mb-3"><i class="fas fa-heart"></i> Hobbies</h4>
-                  <div class="d-flex flex-wrap justify-content-center" style="gap: 15px; font-size: 2rem;">
+                  <div class="d-flex align-items-center mb-4">
+                    <hr class="flex-grow-1" style="border-color: #dee2e6;">
+                    <h5 class="px-3 mb-0" style="font-weight: 600; letter-spacing: 0.08em; color: #343a40;">Hobbies &amp; Interests</h5>
+                    <hr class="flex-grow-1" style="border-color: #dee2e6;">
+                  </div>
+                  <div class="d-flex flex-wrap justify-content-center" style="gap: 20px; font-size: 2.2rem;">
                     <span title="Videogiochi" style="cursor: help;">🎮</span>
                     <span title="Musica" style="cursor: help;">🎵</span>
                     <span title="Viaggiare" style="cursor: help;">✈️</span>
@@ -214,7 +227,7 @@
                   <h3 class="timeline-h3 text-primary">Laurea Magistrale in Software Engineering (LM-18)</h3>
                   <span class="timeline-span font-weight-bold">Università degli Studi di Salerno</span>
                   <p class="text-muted small mb-3"><i class="far fa-calendar-alt"></i> 10/2024 &ndash; in corso</p>
-                  <p class="timeline-p text-justify mb-0"><strong>Media:</strong> 29.6 | <strong>CFU:</strong> 69/120 &mdash; mancano 3 esami al completamento
+                  <p class="timeline-p text-justify mb-0"><strong>Media:</strong> 29.6 &nbsp;|&nbsp; <strong>CFU:</strong> 69/120
                   </p>
                 </div>
               </div>
@@ -230,7 +243,7 @@
                         class="fas fa-star text-warning"></i></span></p>
                   <p class="timeline-p text-justify mb-0" style="font-size: 0.9em;">
                     <strong>Tesi:</strong> <em>"Emotion Prompts: Analisi degli effetti sulle risposte di LLM rispetto a risposte umane"</em><br>
-                    La ricerca indaga l'impatto degli emotion prompts sulla qualità delle risposte di ChatGPT-4 su 25 domande tecniche di Stack Overflow. Le risposte generate da tre tipologie di prompt (neutrale + due emotivi) sono state valutate con metriche NLP (BLEU, ROUGE, BERTScore), sentiment analysis e code review. I risultati mostrano che gli emotion prompts rendono le risposte più simili a quelle umane nel tono (84% dei casi), pur rimanendo le risposte di esperti umani superiori tecnicamente nel 60% dei casi.<br><br>
+                    Studio sull'impatto degli emotion prompts sulle risposte di ChatGPT-4 su domande tecniche di Stack Overflow. Metriche: BLEU, ROUGE, BERTScore, sentiment analysis e code review. Risultato: gli emotion prompts avvicinano le risposte al tono umano (84% dei casi), ma le risposte di esperti restano superiori tecnicamente (60% dei casi).<br>
                     <strong>Relatore:</strong> Prof. Fabio Palomba
                   </p>
                 </div>
@@ -584,6 +597,7 @@
 
   <script>
     const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+    const themeLabel = document.querySelector('.theme-label');
     const currentTheme = localStorage.getItem('theme');
 
     if (currentTheme) {
@@ -591,6 +605,7 @@
       if (currentTheme === 'dark') {
         toggleSwitch.checked = true;
         document.body.classList.add('dark-mode');
+        if (themeLabel) themeLabel.textContent = 'Dark Mode';
       }
     }
 
@@ -599,11 +614,13 @@
         document.documentElement.setAttribute('data-theme', 'dark');
         document.body.classList.add('dark-mode');
         localStorage.setItem('theme', 'dark');
+        if (themeLabel) themeLabel.textContent = 'Dark Mode';
       }
       else {
         document.documentElement.setAttribute('data-theme', 'light');
         document.body.classList.remove('dark-mode');
         localStorage.setItem('theme', 'light');
+        if (themeLabel) themeLabel.textContent = 'Light Mode';
       }
     }
 
