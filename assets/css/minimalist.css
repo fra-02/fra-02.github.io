@@ -256,54 +256,7 @@ body.dark-mode .user-image {
 }
 
 body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5 {
-  color: #e0e0e0 !important;
-}
-
-/* Keep colored card titles in dark mode */
-body.dark-mode .card-title.text-warning { color: #ffc107 !important; }
-body.dark-mode .card-title.text-danger  { color: #f77 !important; }
-body.dark-mode .card-title.text-info    { color: #4fc3f7 !important; }
-body.dark-mode .card-title.text-primary { color: #82b1ff !important; }
-body.dark-mode .card-title.text-success { color: #69f0ae !important; }
-body.dark-mode .card-title.text-secondary { color: #b0bec5 !important; }
-body.dark-mode .timeline-h3.text-primary  { color: #82b1ff !important; }
-body.dark-mode .timeline-h3.text-success  { color: #69f0ae !important; }
-body.dark-mode .timeline-h3.text-secondary { color: #b0bec5 !important; }
-
-/* btn-outline-dark in dark mode: invert to visible */
-body.dark-mode .btn-outline-dark {
-  color: #e0e0e0 !important;
-  border-color: #777 !important;
-}
-body.dark-mode .btn-outline-dark:hover {
-  background-color: #333 !important;
   color: #fff !important;
-}
-body.dark-mode .btn-dark {
-  background-color: #444 !important;
-  border-color: #555 !important;
-}
-
-/* About Me card in dark mode */
-body.dark-mode #aboutme .card {
-  background-color: #1a1a2e !important;
-}
-body.dark-mode #aboutme h5 {
-  color: #ccc !important;
-}
-body.dark-mode #aboutme .text-muted {
-  color: #888 !important;
-}
-body.dark-mode #aboutme hr {
-  border-color: #333 !important;
-}
-body.dark-mode #aboutme a {
-  color: #aaa !important;
-}
-
-/* HR color in dark mode */
-body.dark-mode hr {
-  border-color: #333 !important;
 }
 
 /* Base Toggler Styles */
