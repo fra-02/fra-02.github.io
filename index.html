@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
   <meta charset="utf-8">
@@ -57,7 +57,12 @@
             alt="Francesco Corcione" style="width: 160px; height: 160px; object-fit: cover;">
         </div>
         <div class="col-lg-8">
-          <div class="d-flex justify-content-end mb-2">
+          <div class="d-flex justify-content-end align-items-center mb-2" style="gap: 15px;">
+            <div class="lang-switch-wrapper">
+              <button id="lang-switch-btn" class="btn btn-outline-primary btn-sm rounded-pill font-weight-bold" style="padding: 4px 12px; border-width: 2px;">
+                <i class="fas fa-globe"></i> EN
+              </button>
+            </div>
             <div class="theme-switch-wrapper" style="position:static;">
               <label class="theme-switch" for="checkbox">
                 <input type="checkbox" id="checkbox" />
@@ -67,22 +72,39 @@
             </div>
           </div>
           <h2>Francesco Corcione</h2>
-          <h5 class="text-muted"><i class="fas fa-laptop-code"></i> Junior Developer / Laureando Magistrale in Software
-            Engineering</h5>
-          <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> Ottaviano (NA), Italia</p>
+          <h5 class="text-muted"><i class="fas fa-laptop-code"></i>
+            <span class="lang-it">Junior Developer / Laureando Magistrale in Software Engineering</span>
+            <span class="lang-en">Junior Developer / M.Sc. Student in Software Engineering</span>
+          </h5>
+          <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i>
+            <span class="lang-it">Ottaviano (NA), Italia</span>
+            <span class="lang-en">Ottaviano (NA), Italy</span>
+          </p>
           <p class="text-justify">
-            Sono Francesco Corcione, laureando magistrale in Software Engineering all'Università degli Studi di Salerno.
-            Mi appassiona
-            il mondo dello sviluppo software e cerco sempre di stare al passo con un settore che cambia ogni giorno.
-            Sono particolarmente
-            attratto dal mondo dell'intelligenza artificiale e da tutto ciò che sta ridisegnando il modo in cui
-            costruiamo e pensiamo il
-            software. Il mio obiettivo è crescere fino a poter contribuire attivamente al progresso tecnologico, un
-            pezzo alla volta.<br><br>
-            Fuori dal codice sono una persona curiosa con molti interessi: dai videogiochi ai viaggi, dalla cultura alla
-            natura, fino
-            alla tranquillità della pesca. Sono sempre aperto a nuove opportunità e collaborazioni. Sentiti libero di
-            contattarmi
+            <span class="lang-it">
+              Sono Francesco Corcione, laureando magistrale in Software Engineering all'Università degli Studi di Salerno.
+              Mi appassiona
+              il mondo dello sviluppo software e cerco sempre di stare al passo con un settore che cambia ogni giorno.
+              Sono particolarmente
+              attratto dal mondo dell'intelligenza artificiale e da tutto ciò che sta ridisegnando il modo in cui
+              costruiamo e pensiamo il
+              software. Il mio obiettivo è crescere fino a poter contribuire attivamente al progresso tecnologico, un
+              pezzo alla volta.<br><br>
+              Fuori dal codice sono una persona curiosa con molti interessi: dai videogiochi ai viaggi, dalla cultura alla
+              natura, fino
+              alla tranquillità della pesca. Sono sempre aperto a nuove opportunità e collaborazioni. Sentiti libero di
+              contattarmi
+            </span>
+            <span class="lang-en">
+              I'm Francesco Corcione, a Master's student in Software Engineering at the University of Salerno.
+              I am passionate about the software development world and always strive to keep pace with an industry that
+              changes every day. I am particularly drawn to artificial intelligence and everything reshaping how we
+              build and conceive software. My goal is to grow to actively contribute to technological progress,
+              one piece at a time.<br><br>
+              Outside of coding, I am a curious person with many interests: from video games to traveling, from culture to
+              nature, and the tranquility of fishing. I am always open to new opportunities and collaborations. Feel free
+              to contact me
+            </span>
           </p>
           <ul class="list-inline text-lg-right social-icons mt-3">
             <li class="list-inline-item"><a href="https://github.com/fra-02" target="_blank" title="GitHub"><i
@@ -94,9 +116,14 @@
                   class="fas fa-at"></i></a></li>
             <li class="list-inline-item ml-3">
               <a href="assets/docs/CV_Francesco_Corcione.pdf" target="_blank"
-                class="btn btn-outline-primary btn-sm rounded-pill font-weight-bold"
+                class="btn btn-outline-primary btn-sm rounded-pill font-weight-bold lang-it"
                 style="padding: 6px 16px; border-width: 2px;">
                 <i class="fas fa-file-pdf"></i> Scarica CV
+              </a>
+              <a href="assets/docs/CV_Francesco_Corcione.pdf" target="_blank"
+                class="btn btn-outline-primary btn-sm rounded-pill font-weight-bold lang-en"
+                style="padding: 6px 16px; border-width: 2px;">
+                <i class="fas fa-file-pdf"></i> Download CV
               </a>
             </li>
           </ul>
@@ -147,13 +174,20 @@
                       Francesco Corcione</p>
                     <p class="mb-1"><span class="text-muted"
                         style="min-width:140px; display:inline-block; text-align:right; margin-right:12px;">Birthday</span>
-                      7 Luglio 2002</p>
+                      <span class="lang-it">7 Luglio 2002</span>
+                      <span class="lang-en">July 7, 2002</span>
+                    </p>
                     <p class="mb-1"><span class="text-muted"
                         style="min-width:140px; display:inline-block; text-align:right; margin-right:12px;">Place of
-                        birth</span> Pompei (NA), Italia</p>
+                        birth</span>
+                      <span class="lang-it">Pompei (NA), Italia</span>
+                      <span class="lang-en">Pompei (NA), Italy</span>
+                    </p>
                     <p class="mb-1"><span class="text-muted"
                         style="min-width:140px; display:inline-block; text-align:right; margin-right:12px;">Nationality</span>
-                      Italiana</p>
+                      <span class="lang-it">Italiana</span>
+                      <span class="lang-en">Italian</span>
+                    </p>
                   </div>
 
                   <!-- Contact info -->
@@ -183,13 +217,25 @@
                   </div>
                   <div class="mb-5">
                     <p class="mb-1"><span class="text-muted"
-                        style="min-width:260px; display:inline-block; text-align:right; margin-right:12px;">AI & LLM Integration:</span> Emotion prompts, qualità e usabilità tecnica</p>
+                        style="min-width:260px; display:inline-block; text-align:right; margin-right:12px;">AI & LLM Integration:</span>
+                      <span class="lang-it">Emotion prompts, qualità e usabilità tecnica</span>
+                      <span class="lang-en">Emotion prompts, quality, and technical usability</span>
+                    </p>
                     <p class="mb-1"><span class="text-muted"
-                        style="min-width:260px; display:inline-block; text-align:right; margin-right:12px;">RAG & Knowledge Management:</span> Embeddings multimodali e vector database</p>
+                        style="min-width:260px; display:inline-block; text-align:right; margin-right:12px;">RAG & Knowledge Management:</span>
+                      <span class="lang-it">Embeddings multimodali e vector database</span>
+                      <span class="lang-en">Multimodal embeddings and vector databases</span>
+                    </p>
                     <p class="mb-1"><span class="text-muted"
-                        style="min-width:260px; display:inline-block; text-align:right; margin-right:12px;">Software Quality & Dependability:</span> Verifica formale, testing avanzato e CI/CD</p>
+                        style="min-width:260px; display:inline-block; text-align:right; margin-right:12px;">Software Quality & Dependability:</span>
+                      <span class="lang-it">Verifica formale, testing avanzato e CI/CD</span>
+                      <span class="lang-en">Formal verification, advanced testing, and CI/CD</span>
+                    </p>
                     <p class="mb-1"><span class="text-muted"
-                        style="min-width:260px; display:inline-block; text-align:right; margin-right:12px;">Workflow Automation:</span> Orchestrazione di agenti AI e processi aziendali</p>
+                        style="min-width:260px; display:inline-block; text-align:right; margin-right:12px;">Workflow Automation:</span>
+                      <span class="lang-it">Orchestrazione di agenti AI e processi aziendali</span>
+                      <span class="lang-en">AI agent orchestration and business processes</span>
+                    </p>
                   </div>
 
                   <!-- Hobbies -->
@@ -200,33 +246,61 @@
                     <hr class="flex-grow-1" style="border-color: #dee2e6;">
                   </div>
                   <div class="d-flex flex-wrap justify-content-center" style="gap: 18px;">
-                    <div class="text-center" title="Videogiochi" style="cursor: help;">
-                      <div
-                        style="width:56px; height:56px; border-radius:50%; background:#e8f0fe; display:flex; align-items:center; justify-content:center; font-size:1.4rem; color:#4361ee;">
-                        <i class="fas fa-gamepad"></i>
-                      </div>
-                      <small class="text-muted d-block mt-1" style="font-size:0.68rem;">Videogiochi</small>
+                    <div class="text-center" style="cursor: help;">
+                      <span class="lang-it" title="Videogiochi">
+                        <div style="width:56px; height:56px; border-radius:50%; background:#e8f0fe; display:flex; align-items:center; justify-content:center; font-size:1.4rem; color:#4361ee;">
+                          <i class="fas fa-gamepad"></i>
+                        </div>
+                        <small class="text-muted d-block mt-1" style="font-size:0.68rem;">Videogiochi</small>
+                      </span>
+                      <span class="lang-en" title="Video Games">
+                        <div style="width:56px; height:56px; border-radius:50%; background:#e8f0fe; display:flex; align-items:center; justify-content:center; font-size:1.4rem; color:#4361ee;">
+                          <i class="fas fa-gamepad"></i>
+                        </div>
+                        <small class="text-muted d-block mt-1" style="font-size:0.68rem;">Video Games</small>
+                      </span>
                     </div>
-                    <div class="text-center" title="Musica" style="cursor: help;">
-                      <div
-                        style="width:56px; height:56px; border-radius:50%; background:#fce4ec; display:flex; align-items:center; justify-content:center; font-size:1.4rem; color:#e91e63;">
-                        <i class="fas fa-headphones"></i>
-                      </div>
-                      <small class="text-muted d-block mt-1" style="font-size:0.68rem;">Musica</small>
+                    <div class="text-center" style="cursor: help;">
+                      <span class="lang-it" title="Musica">
+                        <div style="width:56px; height:56px; border-radius:50%; background:#fce4ec; display:flex; align-items:center; justify-content:center; font-size:1.4rem; color:#e91e63;">
+                          <i class="fas fa-headphones"></i>
+                        </div>
+                        <small class="text-muted d-block mt-1" style="font-size:0.68rem;">Musica</small>
+                      </span>
+                      <span class="lang-en" title="Music">
+                        <div style="width:56px; height:56px; border-radius:50%; background:#fce4ec; display:flex; align-items:center; justify-content:center; font-size:1.4rem; color:#e91e63;">
+                          <i class="fas fa-headphones"></i>
+                        </div>
+                        <small class="text-muted d-block mt-1" style="font-size:0.68rem;">Music</small>
+                      </span>
                     </div>
-                    <div class="text-center" title="Viaggiare" style="cursor: help;">
-                      <div
-                        style="width:56px; height:56px; border-radius:50%; background:#fff3e0; display:flex; align-items:center; justify-content:center; font-size:1.4rem; color:#f57c00;">
-                        <i class="fas fa-plane-departure"></i>
-                      </div>
-                      <small class="text-muted d-block mt-1" style="font-size:0.68rem;">Viaggiare</small>
+                    <div class="text-center" style="cursor: help;">
+                      <span class="lang-it" title="Viaggiare">
+                        <div style="width:56px; height:56px; border-radius:50%; background:#fff3e0; display:flex; align-items:center; justify-content:center; font-size:1.4rem; color:#f57c00;">
+                          <i class="fas fa-plane-departure"></i>
+                        </div>
+                        <small class="text-muted d-block mt-1" style="font-size:0.68rem;">Viaggiare</small>
+                      </span>
+                      <span class="lang-en" title="Traveling">
+                        <div style="width:56px; height:56px; border-radius:50%; background:#fff3e0; display:flex; align-items:center; justify-content:center; font-size:1.4rem; color:#f57c00;">
+                          <i class="fas fa-plane-departure"></i>
+                        </div>
+                        <small class="text-muted d-block mt-1" style="font-size:0.68rem;">Traveling</small>
+                      </span>
                     </div>
-                    <div class="text-center" title="Animali" style="cursor: help;">
-                      <div
-                        style="width:56px; height:56px; border-radius:50%; background:#e8f5e9; display:flex; align-items:center; justify-content:center; font-size:1.4rem; color:#43a047;">
-                        <i class="fas fa-paw"></i>
-                      </div>
-                      <small class="text-muted d-block mt-1" style="font-size:0.68rem;">Animali</small>
+                    <div class="text-center" style="cursor: help;">
+                      <span class="lang-it" title="Animali">
+                        <div style="width:56px; height:56px; border-radius:50%; background:#e8f5e9; display:flex; align-items:center; justify-content:center; font-size:1.4rem; color:#43a047;">
+                          <i class="fas fa-paw"></i>
+                        </div>
+                        <small class="text-muted d-block mt-1" style="font-size:0.68rem;">Animali</small>
+                      </span>
+                      <span class="lang-en" title="Animals">
+                        <div style="width:56px; height:56px; border-radius:50%; background:#e8f5e9; display:flex; align-items:center; justify-content:center; font-size:1.4rem; color:#43a047;">
+                          <i class="fas fa-paw"></i>
+                        </div>
+                        <small class="text-muted d-block mt-1" style="font-size:0.68rem;">Animals</small>
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -247,13 +321,18 @@
                 <div class="marker bg-primary"></div>
                 <div class="timeline-content shadow-sm"
                   style="border-radius: 12px; padding: 1.5rem; border-left: 4px solid #007bff;">
-                  <h3 class="timeline-h3 text-primary">Tirocinio &mdash; AI &amp; Workflow Automation Developer</h3>
-                  <p class="text-muted small mb-3"><i class="far fa-calendar-alt"></i> 16 Marzo 2026 &ndash; in corso
+                  <h3 class="timeline-h3 text-primary">
+                    <span class="lang-it">Tirocinio &mdash; AI &amp; Workflow Automation Developer</span>
+                    <span class="lang-en">Internship &mdash; AI &amp; Workflow Automation Developer</span>
+                  </h3>
+                  <p class="text-muted small mb-3"><i class="far fa-calendar-alt"></i>
+                    <span class="lang-it">16 Marzo 2026 &ndash; in corso</span>
+                    <span class="lang-en">March 16, 2026 &ndash; ongoing</span>
                   </p>
-                  <p class="timeline-p text-justify mb-3">Sviluppo di sistemi RAG (Retrieval-Augmented Generation) per
-                    la gestione della conoscenza aziendale, integrazione di LLM tramite workflow automatizzati con n8n,
-                    utilizzo di vector database per embeddings multimodali. I workflow sono riservati e non
-                    pubblicamente linkabili.</p>
+                  <p class="timeline-p text-justify mb-3">
+                    <span class="lang-it">Sviluppo di sistemi RAG (Retrieval-Augmented Generation) per la gestione della conoscenza aziendale, integrazione di LLM tramite workflow automatizzati con n8n, utilizzo di vector database per embeddings multimodali. I workflow sono riservati e non pubblicamente linkabili.</span>
+                    <span class="lang-en">Development of RAG (Retrieval-Augmented Generation) systems for corporate knowledge management, LLM integration via automated workflows with n8n, and usage of vector databases for multimodal embeddings. Workflows are confidential and cannot be shared publicly.</span>
+                  </p>
                   <div class="mb-0">
                     <span class="badge badge-light shadow-sm skill-badge text-dark">n8n</span>
                     <span class="badge badge-light shadow-sm skill-badge text-success">LLM Integration</span>
@@ -279,11 +358,18 @@
                 <div class="marker bg-primary"></div>
                 <div class="timeline-content shadow-sm"
                   style="border-radius: 12px; padding: 1.5rem; border-left: 4px solid #007bff;">
-                  <h3 class="timeline-h3 text-primary">Laurea Magistrale in Software Engineering (LM-18)</h3>
+                  <h3 class="timeline-h3 text-primary">
+                    <span class="lang-it">Laurea Magistrale in Software Engineering (LM-18)</span>
+                    <span class="lang-en">Master's Degree in Software Engineering (LM-18)</span>
+                  </h3>
                   <span class="timeline-span font-weight-bold">Università degli Studi di Salerno</span>
-                  <p class="text-muted small mb-3"><i class="far fa-calendar-alt"></i> 10/2024 &ndash; in corso</p>
-                  <p class="timeline-p text-justify mb-0"><strong>Media:</strong> 29.6 &nbsp;|&nbsp;
-                    <strong>CFU:</strong> 69/120
+                  <p class="text-muted small mb-3"><i class="far fa-calendar-alt"></i>
+                    <span class="lang-it">10/2024 &ndash; in corso</span>
+                    <span class="lang-en">10/2024 &ndash; ongoing</span>
+                  </p>
+                  <p class="timeline-p text-justify mb-0">
+                    <span class="lang-it"><strong>Media:</strong> 29.6 &nbsp;|&nbsp; <strong>CFU:</strong> 69/120</span>
+                    <span class="lang-en"><strong>GPA:</strong> 29.6/30 &nbsp;|&nbsp; <strong>Credits:</strong> 69/120</span>
                   </p>
                 </div>
               </div>
@@ -291,20 +377,40 @@
               <div class="timeline-block timeline-block-left">
                 <div class="timeline-content shadow-sm"
                   style="border-radius: 12px; padding: 1.5rem; border-right: 4px solid #28a745;">
-                  <h3 class="timeline-h3 text-success">Laurea Triennale in Informatica</h3>
+                  <h3 class="timeline-h3 text-success">
+                    <span class="lang-it">Laurea Triennale in Informatica</span>
+                    <span class="lang-en">Bachelor's Degree in Computer Science</span>
+                  </h3>
                   <span class="timeline-span font-weight-bold">Università degli Studi di Salerno</span>
                   <p class="text-muted small mb-3"><i class="far fa-calendar-alt"></i> 09/2021 &ndash; 10/2024</p>
-                  <p class="timeline-p text-justify mb-2"><strong>Voto:</strong> <span
-                      class="badge badge-success px-2 py-1" style="font-size: 0.9em;">110/110 e lode <i
-                        class="fas fa-star text-warning"></i></span></p>
+                  <p class="timeline-p text-justify mb-2">
+                    <strong class="lang-it">Voto:</strong>
+                    <strong class="lang-en">Grade:</strong>
+                    <span class="badge badge-success px-2 py-1" style="font-size: 0.9em;">
+                      <span class="lang-it">110/110 e lode</span>
+                      <span class="lang-en">110/110 cum laude</span>
+                      <i class="fas fa-star text-warning"></i>
+                    </span>
+                  </p>
                   <p class="timeline-p text-justify mb-0" style="font-size: 0.9em;">
-                    <strong>Tesi:</strong> <em>"Emotion Prompts: Analisi degli effetti sulle risposte di LLM rispetto a
-                      risposte umane"</em><br>
-                    Studio sull'impatto degli emotion prompts sulle risposte di ChatGPT-4 su domande tecniche di Stack
-                    Overflow. Metriche: BLEU, ROUGE, BERTScore, sentiment analysis e code review. Risultato: gli emotion
-                    prompts avvicinano le risposte al tono umano (84% dei casi), ma le risposte di esperti restano
-                    superiori tecnicamente (60% dei casi).<br>
-                    <strong>Relatore:</strong> Prof. Fabio Palomba
+                    <span class="lang-it">
+                      <strong>Tesi:</strong> <em>"Emotion Prompts: Analisi degli effetti sulle risposte di LLM rispetto a
+                        risposte umane"</em><br>
+                      Studio sull'impatto degli emotion prompts sulle risposte di ChatGPT-4 su domande tecniche di Stack
+                      Overflow. Metriche: BLEU, ROUGE, BERTScore, sentiment analysis e code review. Risultato: gli emotion
+                      prompts avvicinano le risposte al tono umano (84% dei casi), ma le risposte di esperti restano
+                      superiori tecnicamente (60% dei casi).<br>
+                      <strong>Relatore:</strong> Prof. Fabio Palomba
+                    </span>
+                    <span class="lang-en">
+                      <strong>Thesis:</strong> <em>"Emotion Prompts: Analysis of the effects on LLM responses compared to
+                        human responses"</em><br>
+                      Study on the impact of emotion prompts on ChatGPT-4 responses to technical questions from Stack
+                      Overflow. Metrics: BLEU, ROUGE, BERTScore, sentiment analysis, and code review. Result: emotion
+                      prompts bring responses closer to human tone (84% of cases), but expert human responses remain
+                      technically superior (60% of cases).<br>
+                      <strong>Advisor:</strong> Prof. Fabio Palomba
+                    </span>
                   </p>
                 </div>
                 <div class="marker bg-success"></div>
@@ -314,10 +420,17 @@
                 <div class="marker bg-secondary"></div>
                 <div class="timeline-content shadow-sm"
                   style="border-radius: 12px; padding: 1.5rem; border-left: 4px solid #6c757d;">
-                  <h3 class="timeline-h3 text-secondary">Diploma in Informatica</h3>
+                  <h3 class="timeline-h3 text-secondary">
+                    <span class="lang-it">Diploma in Informatica</span>
+                    <span class="lang-en">High School Diploma in Computer Science</span>
+                  </h3>
                   <span class="timeline-span font-weight-bold">I.T.I.S. "Ettore Majorana", Somma Vesuviana</span>
                   <p class="text-muted small mb-3"><i class="far fa-calendar-alt"></i> 09/2016 &ndash; 07/2021</p>
-                  <p class="timeline-p text-justify mb-0"><strong>Voto:</strong> 99/100</p>
+                  <p class="timeline-p text-justify mb-0">
+                    <strong class="lang-it">Voto:</strong>
+                    <strong class="lang-en">Grade:</strong>
+                    99/100
+                  </p>
                 </div>
               </div>
             </div>
@@ -335,25 +448,24 @@
             <div class="card border-warning shadow project-card h-100 featured-card" style="border-width: 2px;">
               <div class="card-body d-flex flex-column">
                 <div class="d-flex justify-content-between align-items-start mb-2">
-                  <h4 class="card-title text-warning m-0"><strong><i class="fas fa-brain"></i> SINTONIA &mdash; Triage
-                      Salute Mentale</strong></h4>
+                  <h4 class="card-title text-warning m-0"><strong><i class="fas fa-brain"></i>
+                    <span class="lang-it">SINTONIA &mdash; Triage Salute Mentale</span>
+                    <span class="lang-en">SINTONIA &mdash; Mental Health Triage</span>
+                  </strong></h4>
                   <div>
                     <span class="badge badge-warning text-dark shadow-sm mr-2"><i class="fas fa-star"></i>
                       Featured</span>
                     <span class="badge badge-dark">10/2025 - 12/2025</span>
                   </div>
                 </div>
-                <h6 class="text-muted mb-3"><i class="fas fa-user-tie"></i> Ruolo: <strong>Co-Project Manager</strong>
+                <h6 class="text-muted mb-3"><i class="fas fa-user-tie"></i>
+                  <span class="lang-it">Ruolo: <strong>Co-Project Manager</strong></span>
+                  <span class="lang-en">Role: <strong>Co-Project Manager</strong></span>
                 </h6>
-                <p class="card-text flex-grow-1">Sistema integrato per il <strong>triage dinamico</strong> e il
-                  monitoraggio predittivo della salute mentale pubblica in Campania (team C09, UniSa). Trasforma il
-                  paradigma da reattivo a predittivo: la priorità del paziente si aggiorna in tempo reale tramite
-                  questionari clinici standardizzati (PHQ-9, GAD-7, WHO-5, PC-PTSD-5) e un <strong>algoritmo a
-                    decadimento esponenziale</strong> che assegna peso maggiore agli eventi recenti, garantendo un
-                  minimo storico del 20%. Include: dashboard per psicologi con alert automatici al superamento di soglie
-                  critiche, <strong>report clinici generati da AI</strong>, sistema di gamification per i pazienti,
-                  forum anonimo e coda prioritaria dinamica su 4 fasce di urgenza. Sviluppato in team di 13 persone con
-                  ruolo di <strong>Co-Project Manager</strong>, seguendo metodologia Agile.</p>
+                <p class="card-text flex-grow-1">
+                  <span class="lang-it">Sistema integrato per il <strong>triage dinamico</strong> e il monitoraggio predittivo della salute mentale pubblica in Campania (team C09, UniSa). Trasforma il paradigma da reattivo a predittivo: la priorità del paziente si aggiorna in tempo reale tramite questionari clinici standardizzati (PHQ-9, GAD-7, WHO-5, PC-PTSD-5) e un <strong>algoritmo a decadimento esponenziale</strong> che assegna peso maggiore agli eventi recenti, garantendo un minimo storico del 20%. Include: dashboard per psicologi con alert automatici al superamento di soglie critiche, <strong>report clinici generati da AI</strong>, sistema di gamification per i pazienti, forum anonimo e coda prioritaria dinamica su 4 fasce di urgenza. Sviluppato in team di 13 persone con ruolo di <strong>Co-Project Manager</strong>, seguendo metodologia Agile.</span>
+                  <span class="lang-en">Integrated system for <strong>dynamic triage</strong> and predictive monitoring of public mental health in Campania (team C09, UniSa). It shifts the paradigm from reactive to predictive: patient priority updates in real-time through standardized clinical questionnaires (PHQ-9, GAD-7, WHO-5, PC-PTSD-5) and an <strong>exponential decay algorithm</strong> that assigns greater weight to recent events, ensuring a historical minimum of 20%. Includes: psychologist dashboard with automatic alerts when critical thresholds are exceeded, <strong>AI-generated clinical reports</strong>, a gamification system for patients, an anonymous forum, and a dynamic priority queue across 4 urgency tiers. Developed in a team of 13 people as a <strong>Co-Project Manager</strong>, using Agile methodology.</span>
+                </p>
                 <div class="mb-3">
                   <span class="badge badge-light shadow-sm skill-badge text-info"><i class="fab fa-react"></i>
                     React</span>
@@ -391,16 +503,10 @@
                     <span class="badge badge-danger">04/2023 &ndash; 07/2023</span>
                   </div>
                 </div>
-                <p class="card-text flex-grow-1 mt-2">Progetto universitario in due fasi sviluppato per i corsi di
-                  <strong>Ingegneria del Software</strong> e <strong>Software Dependability</strong>. Vaporant è
-                  un'applicazione Java-based per e-commerce (catalogo, carrello, ordini, ruoli utente/admin). Nella
-                  seconda fase, il sistema è stato sottoposto a una campagna di <strong>hardening e refactoring</strong>
-                  orientata alla dependability, includendo: verifica formale con <strong>JML + OpenJML</strong>
-                  (invarianti, pre/postcondizioni), remediation di vulnerabilità con <strong>SonarQube, Snyk e
-                    GitGuardian</strong>, test multi-layer con <strong>JUnit 5, Mockito e MockMvc</strong>, code
-                  coverage con <strong>JaCoCo</strong>, mutation testing con <strong>PiTest</strong>, microbenchmarking
-                  con <strong>JMH</strong>, containerizzazione Docker e pipeline <strong>CI/CD DevSecOps</strong> su
-                  GitHub Actions con quality e security gate automatici.</p>
+                <p class="card-text flex-grow-1 mt-2">
+                  <span class="lang-it">Progetto universitario in due fasi sviluppato per i corsi di <strong>Ingegneria del Software</strong> e <strong>Software Dependability</strong>. Vaporant è un'applicazione Java-based per e-commerce (catalogo, carrello, ordini, ruoli utente/admin). Nella seconda fase, il sistema è stato sottoposto a una campagna di <strong>hardening e refactoring</strong> orientata alla dependability, includendo: verifica formale con <strong>JML + OpenJML</strong> (invarianti, pre/postcondizioni), remediation di vulnerabilità con <strong>SonarQube, Snyk e GitGuardian</strong>, test multi-layer con <strong>JUnit 5, Mockito e MockMvc</strong>, code coverage con <strong>JaCoCo</strong>, mutation testing con <strong>PiTest</strong>, microbenchmarking con <strong>JMH</strong>, containerizzazione Docker e pipeline <strong>CI/CD DevSecOps</strong> su GitHub Actions con quality e security gate automatici.</span>
+                  <span class="lang-en">Two-phase university project developed for <strong>Software Engineering</strong> and <strong>Software Dependability</strong> courses. Vaporant is a Java-based e-commerce application (catalog, shopping cart, orders, user/admin roles). In the second phase, the system underwent a dependability-oriented <strong>hardening and refactoring</strong> campaign, including: formal verification with <strong>JML + OpenJML</strong> (invariants, pre/postconditions), vulnerability remediation using <strong>SonarQube, Snyk, and GitGuardian</strong>, multi-layer testing with <strong>JUnit 5, Mockito, and MockMvc</strong>, code coverage with <strong>JaCoCo</strong>, mutation testing with <strong>PiTest</strong>, microbenchmarking with <strong>JMH</strong>, Docker containerization, and a DevSecOps <strong>CI/CD pipeline</strong> on GitHub Actions with automatic quality and security gates.</span>
+                </p>
                 <div class="mb-3 d-flex flex-wrap" style="gap: 5px;">
                   <span class="badge badge-light shadow-sm skill-badge text-danger"><i class="fab fa-java"></i>
                     Java</span>
@@ -436,14 +542,10 @@
                     <span class="badge badge-secondary">12/2024 &ndash; 02/2025</span>
                   </div>
                 </div>
-                <p class="card-text flex-grow-1 mt-2">Progetto universitario di un <strong>compilatore completo</strong>
-                  per il linguaggio Toy3, sviluppato interamente in Java. Il compilatore traduce codice sorgente Toy3 in
-                  <strong>linguaggio C</strong> come target intermedio, implementando tutte le fasi della compilazione:
-                  analisi lessicale con <strong>JFlex</strong>, parsing bottom-up con <strong>JavaCup</strong>,
-                  costruzione dell'<strong>AST (Abstract Syntax Tree)</strong>, Visitor Pattern per scoping e type
-                  checking semantico, e generazione automatica di codice C. Supporta dichiarazioni di variabili e
-                  funzioni, operazioni aritmetiche/logiche, strutture di controllo (if-then-else, while) e operazioni di
-                  I/O.</p>
+                <p class="card-text flex-grow-1 mt-2">
+                  <span class="lang-it">Progetto universitario di un <strong>compilatore completo</strong> per il linguaggio Toy3, sviluppato interamente in Java. Il compilatore traduce codice sorgente Toy3 in <strong>linguaggio C</strong> come target intermedio, implementando tutte le fasi della compilazione: analisi lessicale con <strong>JFlex</strong>, parsing bottom-up con <strong>JavaCup</strong>, costruzione dell'<strong>AST (Abstract Syntax Tree)</strong>, Visitor Pattern per scoping e type checking semantico, e generazione automatica di codice C. Supporta dichiarazioni di variabili e funzioni, operazioni aritmetiche/logiche, strutture di controllo (if-then-else, while) e operazioni di I/O.</span>
+                  <span class="lang-en">University project of a <strong>complete compiler</strong> for the Toy3 language, developed entirely in Java. The compiler translates Toy3 source code into <strong>C</strong> as an intermediate target, implementing all compilation phases: lexical analysis with <strong>JFlex</strong>, bottom-up parsing with <strong>JavaCup</strong>, <strong>AST (Abstract Syntax Tree)</strong> construction, Visitor Pattern for scoping and semantic type checking, and automatic C code generation. It supports variable and function declarations, arithmetic/logical operations, control structures (if-then-else, while), and I/O operations.</span>
+                </p>
                 <div class="mb-3">
                   <span class="badge badge-light shadow-sm skill-badge text-danger"><i class="fab fa-java"></i>
                     Java</span>
@@ -471,15 +573,16 @@
             <div class="card border-info shadow-sm project-card h-100">
               <div class="card-body d-flex flex-column">
                 <div class="d-flex justify-content-between align-items-start mb-2">
-                  <h4 class="card-title text-info m-0"><i class="fas fa-brain"></i> Tesi &mdash; Emotion Prompts su LLM
+                  <h4 class="card-title text-info m-0"><i class="fas fa-brain"></i>
+                    <span class="lang-it">Tesi &mdash; Emotion Prompts su LLM</span>
+                    <span class="lang-en">Thesis &mdash; Emotion Prompts on LLMs</span>
                   </h4>
                   <span class="badge badge-info text-white">09/2024 &ndash; 10/2024</span>
                 </div>
-                <p class="card-text flex-grow-1">Ricerca sull'effetto degli <strong>emotion prompts</strong> sulla
-                  qualità delle risposte di ChatGPT-4 su 25 domande tecniche di Stack Overflow. Tre tipologie di prompt
-                  (neutrale + 2 emotivi) valutate con <strong>BLEU, ROUGE, BERTScore</strong>, sentiment analysis e code
-                  review. Risultato chiave: gli emotion prompts rendono le risposte più simili a quelle umane nell'84%
-                  dei casi, ma le risposte umane restano superiori tecnicamente nel 60% dei casi.</p>
+                <p class="card-text flex-grow-1">
+                  <span class="lang-it">Ricerca sull'effetto degli <strong>emotion prompts</strong> sulla qualità delle risposte di ChatGPT-4 su 25 domande tecniche di Stack Overflow. Tre tipologie di prompt (neutrale + 2 emotivi) valutate con <strong>BLEU, ROUGE, BERTScore</strong>, sentiment analysis e code review. Risultato chiave: gli emotion prompts rendono le risposte più simili a quelle umane nell'84% dei casi, ma le risposte umane restano superiori tecnicamente nel 60% dei casi.</span>
+                  <span class="lang-en">Research on the effect of <strong>emotion prompts</strong> on ChatGPT-4 answer quality across 25 technical Stack Overflow questions. Three types of prompts (neutral + 2 emotional) were evaluated using <strong>BLEU, ROUGE, BERTScore</strong>, sentiment analysis, and code reviews. Key result: emotion prompts make responses closer to the human tone in 84% of cases, but expert human responses remain technically superior in 60% of cases.</span>
+                </p>
                 <div class="mb-3">
                   <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fab fa-python"></i>
                     Python</span>
@@ -505,8 +608,10 @@
                   <h4 class="card-title text-info m-0"><i class="fas fa-robot"></i> GoEmotion DeBERTa &mdash; MLOps</h4>
                   <span class="badge badge-info text-white">05/2025</span>
                 </div>
-                <p class="card-text flex-grow-1">Esperimento MLOps completo: training, deployment e monitoraggio di un
-                  modello DeBERTa per emotion recognition.</p>
+                <p class="card-text flex-grow-1">
+                  <span class="lang-it">Esperimento MLOps completo: training, deployment e monitoraggio di un modello DeBERTa per emotion recognition.</span>
+                  <span class="lang-en">Complete MLOps experiment: training, deployment, and monitoring of a DeBERTa model for emotion recognition.</span>
+                </p>
                 <div class="mb-3">
                   <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fab fa-python"></i>
                     Python</span>
@@ -529,17 +634,16 @@
             <div class="card border-primary shadow-sm project-card h-100">
               <div class="card-body d-flex flex-column">
                 <div class="d-flex justify-content-between align-items-start mb-2">
-                  <h4 class="card-title text-primary m-0"><i class="fas fa-mobile-alt"></i> Restart &mdash; App per
-                    reinserimento sociale</h4>
+                  <h4 class="card-title text-primary m-0"><i class="fas fa-mobile-alt"></i>
+                    <span class="lang-it">Restart &mdash; App per reinserimento sociale</span>
+                    <span class="lang-en">Restart &mdash; Mobile app for social reintegration</span>
+                  </h4>
                   <span class="badge badge-primary text-white">09/2023 &ndash; 12/2023</span>
                 </div>
-                <p class="card-text flex-grow-1">App mobile per il reinserimento sociale degli ex detenuti, sviluppata
-                  nell'ambito del corso di Gestione dei Progetti Software (UniSa) in risposta a un'iniziativa del
-                  Ministero della Giustizia sulla responsabilità sociale d'impresa. La piattaforma offre accesso a corsi
-                  di formazione online, offerte di lavoro con matching basato su un modulo AI (FIA), alloggi temporanei,
-                  supporto psicologico e un calendario di eventi comunitari. Gli utenti guadagnano punti completando
-                  corsi, utilizzabili come segnale di competenza verso i datori di lavoro. Sviluppata in team seguendo
-                  metodologia Scrum, con ruolo attivo nella specifica dei requisiti e nell'architettura software.</p>
+                <p class="card-text flex-grow-1">
+                  <span class="lang-it">App mobile per il reinserimento sociale degli ex detenuti, sviluppata nell'ambito del corso di Gestione dei Progetti Software (UniSa) in risposta a un'iniziativa del Ministero della Giustizia sulla responsabilità sociale d'impresa. La piattaforma offre accesso a corsi di formazione online, offerte di lavoro con matching basato su un modulo AI (FIA), alloggi temporanei, supporto psicologico e un calendario di eventi comunitari. Gli utenti guadagnano punti completando corsi, utilizzabili come segnale di competenza verso i datori di lavoro. Sviluppata in team seguendo metodologia Scrum, con ruolo attivo nella specifica dei requisiti e nell'architettura software.</span>
+                  <span class="lang-en">Mobile app for the social reintegration of former inmates, developed as part of the Software Project Management course (UniSa) in response to a Ministry of Justice social corporate responsibility initiative. The platform offers access to online training courses, job offers matched through an AI module (FIA), temporary housing, psychological support, and a community events calendar. Users earn points by completing courses, which can be used to signal competence to employers. Developed in a team following Scrum methodology, with an active role in requirements specification and software architecture.</span>
+                </p>
                 <div class="mb-3">
                   <span class="badge badge-light shadow-sm skill-badge text-info"><i class="fas fa-mobile"></i>
                     Flutter/Dart</span>
@@ -562,16 +666,16 @@
             <div class="card border-primary shadow-sm project-card h-100">
               <div class="card-body d-flex flex-column">
                 <div class="d-flex justify-content-between align-items-start mb-2">
-                  <h4 class="card-title text-primary m-0"><i class="fas fa-users-cog"></i> Tool di Gestione
-                    Candidature</h4>
+                  <h4 class="card-title text-primary m-0"><i class="fas fa-users-cog"></i>
+                    <span class="lang-it">Tool di Gestione Candidature</span>
+                    <span class="lang-en">Job Application Management Tool</span>
+                  </h4>
                   <span class="badge badge-primary text-white">07/2025</span>
                 </div>
-                <p class="card-text flex-grow-1">Progetto personale sviluppato principalmente per <strong>esplorare
-                    React</strong> e consolidare le competenze full-stack. L'applicazione gestisce le candidature
-                  lavorative ricevute tramite bot WhatsApp, offrendo agli operatori HR un'interfaccia web moderna per
-                  visualizzare, valutare e gestire i candidati. Backend TypeScript con Express.js, autenticazione JWT e
-                  API Key, ORM Prisma su MariaDB. Frontend React + Vite con Tailwind CSS, React Router e Context API +
-                  useReducer per la gestione dello stato. Ambiente completamente containerizzato con Docker Compose.</p>
+                <p class="card-text flex-grow-1">
+                  <span class="lang-it">Progetto personale sviluppato principalmente per <strong>esplorare React</strong> e consolidare le competenze full-stack. L'applicazione gestisce le candidature lavorative ricevute tramite bot WhatsApp, offrendo agli operatori HR un'interfaccia web moderna per visualizzare, valutare e gestire i candidati. Backend TypeScript con Express.js, autenticazione JWT e API Key, ORM Prisma su MariaDB. Frontend React + Vite con Tailwind CSS, React Router e Context API + useReducer per la gestione dello stato. Ambiente completamente containerizzato con Docker Compose.</span>
+                  <span class="lang-en">Personal project developed mainly to <strong>explore React</strong> and consolidate full-stack skills. The application manages job applications received via a WhatsApp bot, providing HR operators with a modern web interface to view, evaluate, and manage candidates. TypeScript backend with Express.js, JWT and API Key authentication, Prisma ORM on MariaDB. React + Vite frontend with Tailwind CSS, React Router, and Context API + useReducer for state management. Fully containerized environment with Docker Compose.</span>
+                </p>
                 <div class="mb-3">
                   <span class="badge badge-light shadow-sm skill-badge text-primary"><i class="fab fa-react"></i>
                     React</span>
@@ -669,12 +773,25 @@
             <ul class="list-group shadow-sm" style="border-radius: 12px;">
               <li class="list-group-item d-flex justify-content-between align-items-center border-0 border-bottom"
                 style="padding: 1.25rem;">
-                <span style="font-size: 1.1em;"><strong>Italiano</strong></span>
-                <span class="badge badge-primary badge-pill px-3 py-2 shadow-sm">Madrelingua</span>
+                <span style="font-size: 1.1em;">
+                  <strong>
+                    <span class="lang-it">Italiano</span>
+                    <span class="lang-en">Italian</span>
+                  </strong>
+                </span>
+                <span class="badge badge-primary badge-pill px-3 py-2 shadow-sm">
+                  <span class="lang-it">Madrelingua</span>
+                  <span class="lang-en">Native Speaker</span>
+                </span>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center border-0"
                 style="padding: 1.25rem;">
-                <span style="font-size: 1.1em;"><strong>Inglese</strong></span>
+                <span style="font-size: 1.1em;">
+                  <strong>
+                    <span class="lang-it">Inglese</span>
+                    <span class="lang-en">English</span>
+                  </strong>
+                </span>
                 <span class="badge badge-info badge-pill px-3 py-2 shadow-sm text-white">B2</span>
               </li>
             </ul>
@@ -733,6 +850,47 @@
     }
 
     toggleSwitch.addEventListener('change', switchTheme, false);
+
+    // Language Switcher Logic
+    const langBtn = document.getElementById('lang-switch-btn');
+    const currentLang = localStorage.getItem('lang') || 'it';
+
+    const metaDescriptions = {
+      it: "Portfolio di Francesco Corcione — Junior Developer e Laureando Magistrale in Software Engineering. Esperto in AI, RAG systems, LLM integration e sviluppo full-stack.",
+      en: "Francesco Corcione's Portfolio — Junior Developer and M.Sc. Student in Software Engineering. Expert in AI, RAG systems, LLM integration, and full-stack development."
+    };
+    const ogDescriptions = {
+      it: "Laureando Magistrale in Software Engineering @ UniSa. Appassionato di AI, LLM integration e full-stack development.",
+      en: "M.Sc. Student in Software Engineering @ UniSa. Passionate about AI, LLM integration, and full-stack development."
+    };
+
+    function setLanguage(lang) {
+      document.documentElement.setAttribute('lang', lang);
+      localStorage.setItem('lang', lang);
+
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) metaDesc.setAttribute('content', metaDescriptions[lang]);
+
+      const ogDesc = document.querySelector('meta[property="og:description"]');
+      if (ogDesc) ogDesc.setAttribute('content', ogDescriptions[lang]);
+
+      const twitterDesc = document.querySelector('meta[name="twitter:description"]');
+      if (twitterDesc) twitterDesc.setAttribute('content', ogDescriptions[lang]);
+
+      if (langBtn) {
+        langBtn.innerHTML = lang === 'it' ? '<i class="fas fa-globe"></i> EN' : '<i class="fas fa-globe"></i> IT';
+      }
+    }
+
+    // Set initial language
+    setLanguage(currentLang);
+
+    if (langBtn) {
+      langBtn.addEventListener('click', () => {
+        const newLang = document.documentElement.getAttribute('lang') === 'it' ? 'en' : 'it';
+        setLanguage(newLang);
+      });
+    }
   </script>
 </body>
 

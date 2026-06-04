@@ -414,3 +414,31 @@ body.dark-mode .user-image {
   filter: grayscale(100%);
   transition: filter 0.4s ease;
 }
+
+/* Language switcher rules */
+[lang="it"] .lang-en {
+  display: none !important;
+}
+[lang="en"] .lang-it {
+  display: none !important;
+}
+
+/* Language switcher button styling */
+#lang-switch-btn {
+  color: #007bff;
+  border-color: #007bff;
+  transition: all 0.3s ease;
+}
+#lang-switch-btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+body.dark-mode #lang-switch-btn {
+  color: #bb86fc !important;
+  border-color: #bb86fc !important;
+  background-color: transparent !important;
+}
+body.dark-mode #lang-switch-btn:hover {
+  background-color: #bb86fc !important;
+  color: #121212 !important;
+}
