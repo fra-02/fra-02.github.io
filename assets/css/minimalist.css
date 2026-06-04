@@ -423,22 +423,33 @@ body.dark-mode .user-image {
   display: none !important;
 }
 
-/* Language switcher button styling */
-#lang-switch-btn {
-  color: #007bff;
-  border-color: #007bff;
-  transition: all 0.3s ease;
+/* Language switcher text toggle styling */
+.lang-switch-wrapper {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
 }
-#lang-switch-btn:hover {
-  background-color: #007bff;
+.lang-switch-option {
+  cursor: pointer;
+  color: #aaa;
+  transition: all 0.3s ease;
+  padding-bottom: 2px;
+}
+.lang-switch-option:hover {
+  color: #000;
+  text-decoration: none;
+}
+.lang-switch-option.active {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+body.dark-mode .lang-switch-option {
+  color: #777;
+}
+body.dark-mode .lang-switch-option:hover {
   color: #fff;
 }
-body.dark-mode #lang-switch-btn {
-  color: #bb86fc !important;
-  border-color: #bb86fc !important;
-  background-color: transparent !important;
-}
-body.dark-mode #lang-switch-btn:hover {
-  background-color: #bb86fc !important;
-  color: #121212 !important;
+body.dark-mode .lang-switch-option.active {
+  color: #fff;
+  border-bottom: 2px solid #bb86fc;
 }
